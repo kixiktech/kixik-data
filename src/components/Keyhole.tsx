@@ -5,9 +5,9 @@ const Keyhole = () => {
   return (
     <div className="relative w-44 h-44 mx-auto my-8">
       <img 
-        src="/lovable-uploads/3900ffeb-c76b-47d2-a89a-7b29297a8be4.png"
+        src="/lovable-uploads/aacdbb56-915c-49ba-8fbe-ad00fc057a2e.png"
         alt="KIXIK Logo"
-        className="keyhole w-full h-full"
+        className="w-full h-full"
       />
     </div>
   );
