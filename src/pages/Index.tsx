@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -121,14 +122,6 @@ const Index = () => {
               "We never sell similar niches—your territory remains yours alone."
             </p>
           </div>
-        </div>
-
-        <div className="max-w-4xl mx-auto mt-24 p-8 md:p-12 border border-gold/30">
-          <h3 className="terminal-text text-xl mb-6 text-center">Case Study Teaser</h3>
-          <p className="terminal-text text-center">
-            "How a 2-person team scaled to $83k/mo in 11 weeks using our real-time intent alerts"
-            <br /><span className="text-sm mt-4 block">Application required to view full case study</span>
-          </p>
         </div>
       </section>
 
