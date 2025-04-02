@@ -16,7 +16,7 @@ const Index = () => {
       <section className="container mx-auto px-4 mt-16 md:mt-32 text-center">
         <GoldLogo />
         <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-6">
-          The Hidden Playbook Scaling AI<br />
+          The Hidden Lead Data Scaling AI<br />
           Agencies to $100k/Month
         </h1>
         <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-12">
