@@ -125,42 +125,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Section 4: The Gauntlet (Exclusive Access) */}
-      <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
-            Why We Reject 68% of Applicants
-          </h2>
-
-          <div className="max-w-4xl mx-auto space-y-16">
-            <div className="p-8 md:p-12 border border-gold/30">
-              <h3 className="terminal-text text-2xl mb-6">Margin Validation</h3>
-              <p className="terminal-text">
-                "Can you handle 20+ new clients/month without fulfillment collapse?"
-              </p>
-            </div>
-
-            <div className="p-8 md:p-12 border border-gold/30">
-              <h3 className="terminal-text text-2xl mb-6">Offer Stress Test</h3>
-              <p className="terminal-text">
-                "Is your pitch engineered to convert decision-makers who already know they need AI?"
-              </p>
-            </div>
-
-            <div className="p-8 md:p-12 border border-gold/30">
-              <h3 className="terminal-text text-2xl mb-6">Scalability DNA</h3>
-              <p className="terminal-text">
-                "Do you have systems (not just hunger) to 10X if leads convert at 22%+?"
-              </p>
-            </div>
-          </div>
-
-          <p className="terminal-text text-xl text-center mt-24 max-w-4xl mx-auto">
-            "This isn't for hobbyists. If you're serious about domination, prove it below."
-          </p>
-        </div>
-      </section>
-
       {/* Section 5: The Threshold (CTA) */}
       <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-20">
