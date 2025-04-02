@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -36,10 +37,10 @@ const Index = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div className="text-center">
-            <h3 className="terminal-text text-xl mb-6">Saturation Suffocation</h3>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-4">
               <TrapCircle number={1} />
             </div>
+            <h3 className="terminal-text text-xl mb-4">Saturation Suffocation</h3>
             <p className="terminal-text leading-relaxed">
               Your outreach blends into 2,341 identical offers flooding 
               decision-makers' inboxes daily.
@@ -47,10 +48,10 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <h3 className="terminal-text text-xl mb-6">Cold Lead Fatigue</h3>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-4">
               <TrapCircle number={2} />
             </div>
+            <h3 className="terminal-text text-xl mb-4">Cold Lead Fatigue</h3>
             <p className="terminal-text leading-relaxed">
               Wasting 73% of your time chasing businesses who think 
               they want automation vs. those actively hunting for it.
@@ -58,10 +59,10 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <h3 className="terminal-text text-xl mb-6">Community Cannibalism</h3>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-4">
               <TrapCircle number={3} />
             </div>
+            <h3 className="terminal-text text-xl mb-4">Community Cannibalism</h3>
             <p className="terminal-text leading-relaxed">
               Following the same 'proven' playbook as every course 
               graduate—racing to the bottom while pretending success is one 

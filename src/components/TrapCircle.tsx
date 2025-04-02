@@ -5,7 +5,7 @@ interface TrapCircleProps {
 
 const TrapCircle = ({ number }: TrapCircleProps) => {
   return (
-    <div className="trap-circle">
+    <div className="trap-circle-small">
       {number}
     </div>
   );
