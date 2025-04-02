@@ -1,10 +1,10 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
 import ApplicationForm from '@/components/ApplicationForm';
 import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
+import ComparisonTables from '@/components/ComparisonTables';
 
 const Index = () => {
   return (
@@ -85,24 +85,7 @@ const Index = () => {
           </h2>
 
           <div className="max-w-4xl mx-auto">
-            <div className="border border-gold/30 mb-16">
-              <div className="grid grid-cols-1 md:grid-cols-2 terminal-text">
-                <div className="border-b md:border-r border-gold/30 p-6 md:p-8 text-center font-bold">Their Methods</div>
-                <div className="border-b border-gold/30 p-6 md:p-8 text-center font-bold">Our Edge</div>
-                
-                <div className="border-b md:border-r border-gold/30 p-6 md:p-8">Generic LinkedIn scraping</div>
-                <div className="border-b border-gold/30 p-6 md:p-8 text-gold">60B weekly behavioral signals</div>
-                
-                <div className="border-b md:border-r border-gold/30 p-6 md:p-8">Basic firmographics</div>
-                <div className="border-b border-gold/30 p-6 md:p-8 text-gold">B2B2C identity linking</div>
-                
-                <div className="border-b md:border-r border-gold/30 p-6 md:p-8">Manual intent guessing</div>
-                <div className="border-b border-gold/30 p-6 md:p-8 text-gold">Real-time search tracking for "n8n integration" / "AI cost savings"</div>
-                
-                <div className="md:border-r border-gold/30 p-6 md:p-8">Spray-and-pray outreach</div>
-                <div className="border-gold/30 p-6 md:p-8 text-gold">SIC-coded decision makers actively Googling solutions</div>
-              </div>
-            </div>
+            <ComparisonTables />
             
             <p className="terminal-text text-xl text-center mt-24 mx-auto max-w-3xl">
               "Last Thursday, 7 agencies closed $297k in combined contracts from leads we delivered 14 days prior."

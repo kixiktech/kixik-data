@@ -61,7 +61,7 @@ export default {
 				dark: {
 					DEFAULT: '#000000',
 					100: '#111111',
-					200: '#222222'
+					200: '#1A1A1A'
 				}
 			},
 			fontFamily: {
