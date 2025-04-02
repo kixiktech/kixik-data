@@ -1,7 +1,5 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
-import Keyhole from '@/components/Keyhole';
 import TrapCircle from '@/components/TrapCircle';
 import ApplicationForm from '@/components/ApplicationForm';
 
@@ -15,7 +13,7 @@ const Index = () => {
 
       {/* Hero Section: The Invitation to Power */}
       <section className="container mx-auto px-4 mt-16 md:mt-32 text-center">
-        <Keyhole />
+        <div className="h-44 mx-auto my-8"></div>
         <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-6">
           The Hidden Playbook Scaling AI<br />
           Agencies to $100k/Month
