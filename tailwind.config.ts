@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,16 +53,20 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				gold: {
+					DEFAULT: '#D4AF37',
+					light: '#F0D573',
+					dark: '#AA8C2C'
+				},
+				dark: {
+					DEFAULT: '#000000',
+					100: '#111111',
+					200: '#222222'
 				}
+			},
+			fontFamily: {
+				terminal: ['VT323', 'Consolas', 'monospace'],
+				mono: ['Space Mono', 'Consolas', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -70,25 +75,32 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				'pulse-gold': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.6' },
+				},
+				'glow': {
+					'0%, 100%': { filter: 'brightness(100%)' },
+					'50%': { filter: 'brightness(150%)' },
+				},
+				'drip': {
+					'0%': { transform: 'translateY(0px)' },
+					'100%': { transform: 'translateY(10px)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-gold': 'pulse-gold 3s infinite ease-in-out',
+				'glow': 'glow 2s infinite ease-in-out',
+				'drip': 'drip 2s infinite alternate',
 			}
 		}
 	},
