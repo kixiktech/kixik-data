@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -6,10 +5,8 @@ import ApplicationForm from '@/components/ApplicationForm';
 import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-black text-gold">
+  return <div className="min-h-screen bg-black text-gold">
       {/* Header */}
       <header className="container mx-auto py-8 px-6">
         <Logo />
@@ -94,9 +91,7 @@ const Index = () => {
               </p>
             </div>
             
-            <p className="terminal-text text-xl text-center mt-12 mx-auto max-w-3xl">
-              "Last Thursday, 7 agencies closed $297k in combined contracts from leads we delivered 14 days prior."
-            </p>
+            
           </div>
         </div>
       </section>
@@ -149,8 +144,6 @@ const Index = () => {
           © {new Date().getFullYear()} KIXIK TECHNOLOGIES. All rights reserved.
         </p>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
