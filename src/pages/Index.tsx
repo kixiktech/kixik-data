@@ -88,7 +88,13 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <ComparisonTables />
             
-            <p className="terminal-text text-xl text-center mt-24 mx-auto max-w-3xl">
+            <div className="mt-24 border-2 border-gold p-6 md:p-8 bg-dark-200/50 rounded-md">
+              <p className="terminal-text text-xl text-center mx-auto max-w-3xl gold-glow">
+                "Our partner agencies are landing clients within 7 days using our high-intent data and quick scaling system."
+              </p>
+            </div>
+            
+            <p className="terminal-text text-xl text-center mt-12 mx-auto max-w-3xl">
               "Last Thursday, 7 agencies closed $297k in combined contracts from leads we delivered 14 days prior."
             </p>
           </div>
