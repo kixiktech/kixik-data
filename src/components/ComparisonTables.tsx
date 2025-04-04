@@ -64,6 +64,12 @@ const ComparisonTables = () => {
           </Table>
         </div>
       </div>
+
+      <div className="mt-24 border-2 border-gold p-6 md:p-8 bg-dark-200/50 rounded-md">
+        <p className="terminal-text text-xl text-center mx-auto max-w-3xl gold-glow">
+          Our partner agencies are landing clients within 7 days using our high-intent data and quick scaling system.
+        </p>
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -5,6 +6,7 @@ import ApplicationForm from '@/components/ApplicationForm';
 import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
+
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
       {/* Header */}
@@ -84,14 +86,6 @@ const Index = () => {
 
           <div className="max-w-4xl mx-auto">
             <ComparisonTables />
-            
-            <div className="mt-24 border-2 border-gold p-6 md:p-8 bg-dark-200/50 rounded-md">
-              <p className="terminal-text text-xl text-center mx-auto max-w-3xl gold-glow">
-                "Our partner agencies are landing clients within 7 days using our high-intent data and quick scaling system."
-              </p>
-            </div>
-            
-            
           </div>
         </div>
       </section>
@@ -106,21 +100,21 @@ const Index = () => {
           <div className="border border-gold/30 p-8 md:p-12">
             <h3 className="terminal-text text-2xl mb-6">Precision Nuclear Targeting</h3>
             <p className="terminal-text">
-              "We track prospects who searched for exact solutions you offer 3.2x before contacting you."
+              We track prospects who searched for exact solutions you offer 3.2x before contacting you.
             </p>
           </div>
 
           <div className="border border-gold/30 p-8 md:p-12">
             <h3 className="terminal-text text-2xl mb-6">CRM Autoload System</h3>
             <p className="terminal-text">
-              "Hot leads auto-populate in your HubSpot/Salesforce before they finish reading your competitor's outdated blog."
+              Hot leads auto-populate in your HubSpot/Salesforce before they finish reading your competitor's outdated blog.
             </p>
           </div>
 
           <div className="border border-gold/30 p-8 md:p-12">
             <h3 className="terminal-text text-2xl mb-6">Ghost Competition Protocol</h3>
             <p className="terminal-text">
-              "We never sell similar niches—your territory remains yours alone."
+              We never sell similar niches—your territory remains yours alone.
             </p>
           </div>
         </div>
