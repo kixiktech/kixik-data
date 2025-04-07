@@ -121,6 +121,66 @@ const testimonials: TestimonialData[] = [
     title: "Agency Owner in the Travel & Hospitality Niche",
     message: "For the first time in my agency journey, growth feels like something I can actually plan. I'm not guessing anymore. The people I'm talking to are already tuned in to what I do. They've felt the pain. They're ready to act. It's not a grind. It's a conversation. And the pace we're growing at now is faster than I thought was possible. But the best part? It feels effortless.",
     imageUrl: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Nolan Reece",
+    title: "Agency Owner in the Automotive Lead Niche",
+    message: "I used to think I had a traffic problem, but it turns out I had a targeting problem. The leads I was chasing before were ice cold. It was like trying to sell windshield wipers in the desert. But the moment I started speaking to people who had actually been researching solutions, everything clicked. Sales calls got smoother. My closing rate tripled. And I stopped waking up every morning wondering where the next client would come from.",
+    imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Alina Kerr",
+    title: "Agency Owner in the Influencer Management Niche",
+    message: "What blew me away was how effortless it felt. I didn't rewrite my sales script. I didn't rebrand. I just changed who I was talking to. Suddenly, I was having conversations with people who were already trying to solve the exact problems I specialize in. That shift gave me instant momentum. More replies. More calls. More deals. It made me realize the hard part wasn't my offer—it was the direction of my attention.",
+    imageUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Griffin Steele",
+    title: "Agency Owner in the Podcasting and Content Niche",
+    message: "I thought scaling would take a year. Turns out it only took the right people. Within two weeks of launching my new outbound campaigns, I booked nine discovery calls and closed five. These weren't maybe-someday leads. These were business owners who were actively trying to find help. I finally stopped feeling like a spammer and started feeling like a solution. The confidence boost alone has been game-changing.",
+    imageUrl: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Bella Quinn",
+    title: "Agency Owner in the Childcare Automation Niche",
+    message: "The difference was immediate. I'd spent months burning money on ads and scraping together inconsistent lists. I was exhausted. But once I started speaking to the right segment—people already deep in the buying mindset—it felt like I'd entered a different business. Conversations were warmer. Sales cycles shortened. Revenue became steady. For the first time, I feel like my agency has structure and certainty.",
+    imageUrl: "https://images.unsplash.com/photo-1567532939604-b6b5b398ccff?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Marcus Lin",
+    title: "Agency Owner in the IT Services Niche",
+    message: "We were doing okay, but growth was slow and stressful. My team was constantly shifting gears trying to keep the pipeline full. But everything turned around once we made one change—who we were targeting. Our list suddenly became a goldmine. People were replying the same day. Calls got booked without friction. We've added more clients in the last month than the previous quarter, and I finally feel like we're in a position to scale without chaos.",
+    imageUrl: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Elise Navarro",
+    title: "Agency Owner in the Home Improvement Niche",
+    message: "What used to feel like a hustle now feels like momentum. I was sending hundreds of cold emails a week just to get one or two lukewarm responses. I started using better signals to figure out who actually cared, and the whole game changed. My emails started turning into booked calls. My calendar filled up. My pipeline stayed warm. And I started thinking bigger because the leads finally matched the vision I had for this business.",
+    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Colton Reyes",
+    title: "Agency Owner in the B2B Sales Enablement Niche",
+    message: "It felt like I unlocked a secret backdoor to demand. I wasn't doing anything fancy. I just started focusing on people who were already searching, clicking, comparing. Once I aligned my outreach with that behavior, everything sped up. I stopped explaining what I do on calls and started exploring how fast we could implement. That shift changed my entire business model. I'm now forecasting revenue with confidence, not hope.",
+    imageUrl: "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Aaliyah Dunn",
+    title: "Agency Owner in the Virtual Assistant Systems Niche",
+    message: "I always believed in high-ticket retainers but struggled to build the trust quickly enough to justify them. That changed overnight once I began speaking to people who had already hit the breaking point. They weren't just curious. They were ready. And when that's the case, positioning becomes effortless. The value of what I offer landed harder. My close rate went through the roof. And now, for the first time, I've got a real waitlist.",
+    imageUrl: "https://images.unsplash.com/photo-1535468850893-d6e543fbd7f5?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Theo Bradford",
+    title: "Agency Owner in the Landscaping Tech Niche",
+    message: "The best part is the peace of mind. I'm no longer living in that anxious space of \"will this work?\" I know when I turn on a new campaign, qualified people will respond. I've built systems around that reliability. I've hired based on that flow. It's the kind of growth I used to think was only available to agencies with big teams and ad budgets. Turns out, I just needed the right access.",
+    imageUrl: "https://images.unsplash.com/photo-1618088129969-bcb0c051985e?w=500&h=500&fit=crop"
+  },
+  {
+    name: "Jade Emerson",
+    title: "Agency Owner in the Fashion Brand Automation Niche",
+    message: "I remember reading about agency owners who had consistent inbound, booked calls every day, and I used to think they were lying or lucky. Now I'm living it. Every day I wake up to interest, follow-ups, conversations already in motion. I didn't change who I was. I didn't reinvent my offer. I just started speaking to people who were already moving. That simple decision has turned my agency into something I can truly scale—and enjoy.",
+    imageUrl: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&h=500&fit=crop"
   }
 ];
 
