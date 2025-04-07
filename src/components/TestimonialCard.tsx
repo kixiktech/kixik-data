@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card } from '@/components/ui/card';
 import { Star } from 'lucide-react';
@@ -13,6 +13,7 @@ export interface TestimonialData {
 
 const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
   const { name, title, message, imageUrl } = data;
+  const [imageError, setImageError] = useState(false);
   
   const initials = name.split(' ').map(n => n[0]).join('');
   
@@ -20,7 +21,11 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
     <Card className="p-6 md:p-8 bg-dark-200/60 border border-gold/30 hover:border-gold/50 hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-gold/10 hover:shadow-gold/20">
       <div className="flex items-center gap-4 mb-4">
         <Avatar className="h-16 w-16 border-2 border-gold/30">
-          <AvatarImage src={imageUrl} alt={name} />
+          <AvatarImage 
+            src={imageUrl} 
+            alt={name} 
+            onError={() => setImageError(true)}
+          />
           <AvatarFallback className="bg-dark-100 text-gold">{initials}</AvatarFallback>
         </Avatar>
         <div>
