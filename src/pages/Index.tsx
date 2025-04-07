@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -7,7 +6,6 @@ import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
-
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
       {/* Header */}
@@ -92,7 +90,7 @@ const Index = () => {
       </section>
 
       {/* Section 3: The Elixir (Solution Revelation) */}
-      <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
+      <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
           Your New Reality as a Partner Agency
         </h2>
@@ -122,7 +120,7 @@ const Index = () => {
       </section>
 
       {/* Section 4: Case Studies & Testimonials */}
-      <section className="container mx-auto px-6 max-w-6xl">
+      <section className="container mx-auto max-w-6xl py-0 px-[40px]">
         <TestimonialsSection />
       </section>
 
