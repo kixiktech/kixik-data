@@ -1,5 +1,7 @@
+
 import React from 'react';
 import TestimonialCard, { TestimonialData } from './TestimonialCard';
+import { Star } from 'lucide-react';
 
 const testimonials: TestimonialData[] = [
   {
@@ -187,9 +189,29 @@ const testimonials: TestimonialData[] = [
 const TestimonialsSection: React.FC = () => {
   return (
     <div className="py-36 md:py-48">
-      <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
+      {/* Stars above the heading */}
+      <div className="flex justify-center items-center gap-4 mb-8">
+        {[...Array(5)].map((_, index) => (
+          <Star 
+            key={`top-star-${index}`}
+            className="h-6 w-6 fill-gold text-gold" 
+          />
+        ))}
+      </div>
+      
+      <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-8">
         Case Studies & Testimonials
       </h2>
+      
+      {/* Stars below the heading */}
+      <div className="flex justify-center items-center gap-4 mb-16">
+        {[...Array(5)].map((_, index) => (
+          <Star 
+            key={`bottom-star-${index}`}
+            className="h-6 w-6 fill-gold text-gold" 
+          />
+        ))}
+      </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
         {testimonials.map((testimonial, index) => (
