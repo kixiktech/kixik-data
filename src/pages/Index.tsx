@@ -6,6 +6,7 @@ import ApplicationForm from '@/components/ApplicationForm';
 import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
+import TestimonialsSection from '@/components/TestimonialsSection';
 
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
@@ -118,6 +119,11 @@ const Index = () => {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Section 4: Case Studies & Testimonials */}
+      <section className="container mx-auto px-6 max-w-6xl">
+        <TestimonialsSection />
       </section>
 
       {/* Section 5: The Threshold (CTA) */}
