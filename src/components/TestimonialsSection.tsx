@@ -1,7 +1,6 @@
-
 import React from 'react';
 import TestimonialCard, { TestimonialData } from './TestimonialCard';
-import { Star } from 'lucide-react';
+import { Star, Flower } from 'lucide-react';
 
 const testimonials: TestimonialData[] = [
   {
@@ -98,7 +97,7 @@ const testimonials: TestimonialData[] = [
     name: "Penelope Rhodes",
     title: "Agency Owner in the Author & Publishing Niche",
     message: "The first time someone replied to my email and said, \"I've been Googling this exact thing all week,\" I realized something big had shifted. It made me think differently about the way I approach outreach entirely. The days of generic targeting are over for me. Now I speak directly to people who are already searching. It feels less like marketing and more like matchmaking.",
-    imageUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=500&fit=crop"
+    imageUrl: "https://images.unsplash.com/photo-1444005313-94ddf0286df2?w=500&h=500&fit=crop"
   },
   {
     name: "Elias Morgan",
@@ -201,10 +200,9 @@ const TestimonialsSection: React.FC = () => {
       
       <div className="flex justify-center items-center gap-6 mb-8">
         {/* Left Wreath */}
-        <img 
-          src="/lovable-uploads/29f6f10c-d837-49b6-9b65-6345c06a444e.png" 
-          alt="Decorative left wreath" 
-          className="h-16 w-16 transform rotate-[30deg]"
+        <Flower 
+          className="h-16 w-16 text-gold transform rotate-[30deg]" 
+          strokeWidth={1}
         />
         
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center">
@@ -212,10 +210,9 @@ const TestimonialsSection: React.FC = () => {
         </h2>
         
         {/* Right Wreath */}
-        <img 
-          src="/lovable-uploads/29f6f10c-d837-49b6-9b65-6345c06a444e.png" 
-          alt="Decorative right wreath" 
-          className="h-16 w-16 transform rotate-[-30deg] scale-x-[-1]"
+        <Flower 
+          className="h-16 w-16 text-gold transform rotate-[-30deg] scale-x-[-1]" 
+          strokeWidth={1}
         />
       </div>
       
