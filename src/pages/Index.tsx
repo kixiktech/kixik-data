@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -6,6 +7,8 @@ import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import CalButton from '@/components/CalButton';
+
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
       {/* Header */}
@@ -24,9 +27,9 @@ const Index = () => {
           Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
           they're monopolizing niches using our proprietary lead system
         </p>
-        <button className="gold-button text-base md:text-lg">
+        <CalButton>
           APPLY FOR PARTNERSHIP REVIEW →
-        </button>
+        </CalButton>
       </section>
 
       {/* Section 1: The Mirror (Problem Reflection) */}

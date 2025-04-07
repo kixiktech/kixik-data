@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import { Input } from '@/components/ui/input';
 import { toast } from 'sonner';
+import CalButton from './CalButton';
 
 const ApplicationForm = () => {
   const [formState, setFormState] = useState({
@@ -68,12 +68,12 @@ const ApplicationForm = () => {
         />
       </div>
 
-      <Button 
+      <CalButton 
         type="submit" 
-        className="gold-button w-full"
+        className="w-full"
       >
         Submit for Vetting →
-      </Button>
+      </CalButton>
     </form>
   );
 };
