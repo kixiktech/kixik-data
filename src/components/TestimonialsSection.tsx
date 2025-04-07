@@ -1,7 +1,5 @@
-
 import React from 'react';
 import TestimonialCard, { TestimonialData } from './TestimonialCard';
-import { ScrollArea } from './ui/scroll-area';
 
 const testimonials: TestimonialData[] = [
   {
@@ -64,7 +62,6 @@ const testimonials: TestimonialData[] = [
     message: "I kept thinking I needed better scripts. Better angles. Better CTAs. But what I really needed was better timing. Once I started connecting with prospects who were already researching automation, I realized how much simpler this business could be. My results skyrocketed. My stress dropped. It's like I finally found the frequency that my offer was meant to operate on.",
     imageUrl: "https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=500&h=500&fit=crop"
   },
-  // New testimonials
   {
     name: "Caleb Winters",
     title: "Agency Owner in the Personal Finance Automation Niche",
@@ -134,13 +131,11 @@ const TestimonialsSection: React.FC = () => {
         Case Studies & Testimonials
       </h2>
       
-      <ScrollArea className="h-[800px] pr-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-          {testimonials.map((testimonial, index) => (
-            <TestimonialCard key={index} data={testimonial} />
-          ))}
-        </div>
-      </ScrollArea>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        {testimonials.map((testimonial, index) => (
+          <TestimonialCard key={index} data={testimonial} />
+        ))}
+      </div>
     </div>
   );
 };
