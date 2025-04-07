@@ -1,6 +1,6 @@
 import React from 'react';
 import TestimonialCard, { TestimonialData } from './TestimonialCard';
-import { Star, Flower } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 const testimonials: TestimonialData[] = [
   {
@@ -199,11 +199,7 @@ const TestimonialsSection: React.FC = () => {
       </div>
       
       <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-16">
-        <span className="flex items-center justify-center">
-          <Flower className="h-10 w-10 text-gold rotate-90 mr-4" />
-          Case Studies & Testimonials
-          <Flower className="h-10 w-10 text-gold -rotate-90 ml-4" />
-        </span>
+        Case Studies & Testimonials
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
