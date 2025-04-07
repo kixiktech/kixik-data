@@ -199,9 +199,25 @@ const TestimonialsSection: React.FC = () => {
         ))}
       </div>
       
-      <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-8">
-        Case Studies & Testimonials
-      </h2>
+      <div className="flex justify-center items-center gap-6 mb-8">
+        {/* Left Wreath */}
+        <img 
+          src="/lovable-uploads/29f6f10c-d837-49b6-9b65-6345c06a444e.png" 
+          alt="Decorative left wreath" 
+          className="h-16 w-16 transform rotate-[30deg]"
+        />
+        
+        <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center">
+          Case Studies & Testimonials
+        </h2>
+        
+        {/* Right Wreath */}
+        <img 
+          src="/lovable-uploads/29f6f10c-d837-49b6-9b65-6345c06a444e.png" 
+          alt="Decorative right wreath" 
+          className="h-16 w-16 transform rotate-[-30deg] scale-x-[-1]"
+        />
+      </div>
       
       {/* Stars below the heading */}
       <div className="flex justify-center items-center gap-4 mb-16">
