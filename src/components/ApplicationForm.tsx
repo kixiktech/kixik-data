@@ -46,9 +46,6 @@ const ApplicationForm = () => {
             onChange={(e) => handleChange('clientLTV', e.target.value)}
             required
           />
-          <p className="text-gold/60 terminal-text text-sm italic">
-            🧠 This question doesn't feel like a pitch—but it sets the groundwork for value anchoring.
-          </p>
         </div>
 
         <div className="space-y-4">
@@ -62,9 +59,6 @@ const ApplicationForm = () => {
             onChange={(e) => handleChange('currentAcquisition', e.target.value)}
             required
           />
-          <p className="text-gold/60 terminal-text text-sm italic">
-            🧠 Softly exposes inefficiencies and primes their brain to contrast "manual work" vs. Elite Data.
-          </p>
         </div>
 
         <div className="space-y-4">
@@ -85,16 +79,13 @@ const ApplicationForm = () => {
               <SelectItem value="exploring">Just looking around</SelectItem>
             </SelectContent>
           </Select>
-          <p className="text-gold/60 terminal-text text-sm italic">
-            🧠 Creates subtle urgency, filters real buyers, and still feels like a non-salesy logistics question.
-          </p>
         </div>
 
         <CalButton 
           type="submit" 
           className="w-full mt-8"
         >
-          🔐 APPLY TO SCALE WITH ELITE DATA
+          APPLY TO SCALE WITH ELITE DATA
         </CalButton>
         
         <p className="text-center text-gold/70 terminal-text text-sm mt-4">
