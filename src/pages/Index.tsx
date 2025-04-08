@@ -146,8 +146,17 @@ const Index = () => {
         <ApplicationForm />
       </section>
 
+      {/* KIXIK Logo Section */}
+      <section className="container mx-auto px-6 py-24 flex justify-center">
+        <img 
+          src="/lovable-uploads/f3227dd0-097a-4565-a61c-ac910c8cf91a.png" 
+          alt="KIXIK Technologies Logo" 
+          className="w-48 h-auto" 
+        />
+      </section>
+
       {/* Footer */}
-      <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
+      <footer className="container mx-auto px-6 py-12 border-t border-gold/20">
         <div className="flex justify-center mb-8">
           <Logo />
         </div>
