@@ -34,7 +34,7 @@ const Index = () => {
           Agencies to $100k/Month
         </h1>
         <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
-          Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
+          Why top agencies quietly stopped competing for scraps... and how<br className="hidden md:block" />
           they're monopolizing niches using our proprietary lead system
         </p>
         <CalButton>
