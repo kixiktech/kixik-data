@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -6,8 +7,20 @@ import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import CalButton from '@/components/CalButton';
+
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
+      {/* Fixed Request Info Button */}
+      <div className="fixed top-8 right-6 z-50">
+        <CalButton 
+          className="shadow-xl shadow-gold/30 hover:shadow-gold/40 transition-shadow text-xs py-2 px-4" 
+          size="sm"
+        >
+          Request More Info
+        </CalButton>
+      </div>
+      
       {/* Header */}
       <header className="container mx-auto py-8 px-6">
         <Logo />
@@ -21,12 +34,12 @@ const Index = () => {
           Agencies to $100k/Month
         </h1>
         <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
-          Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
+          Why top agencies quietly stopped competing for scraps... and how<br className="hidden md:block" />
           they're monopolizing niches using our proprietary lead system
         </p>
-        <button className="gold-button text-base md:text-lg">
+        <CalButton>
           APPLY FOR PARTNERSHIP REVIEW →
-        </button>
+        </CalButton>
       </section>
 
       {/* Section 1: The Mirror (Problem Reflection) */}
@@ -136,7 +149,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
         <div className="flex justify-center mb-8">
-          <Logo className="py-[49px]" />
+          <Logo />
         </div>
         <p className="text-center text-gold/40 text-sm terminal-text">
           © {new Date().getFullYear()} KIXIK TECHNOLOGIES. All rights reserved.
