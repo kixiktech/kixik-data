@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -11,6 +10,13 @@ import CalButton from '@/components/CalButton';
 
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
+      {/* Fixed Request Info Button */}
+      <div className="fixed top-8 right-6 z-50">
+        <CalButton className="shadow-xl shadow-gold/30 hover:shadow-gold/40 transition-shadow">
+          Request More Info
+        </CalButton>
+      </div>
+      
       {/* Header */}
       <header className="container mx-auto py-8 px-6">
         <Logo />
