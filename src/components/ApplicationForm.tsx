@@ -8,12 +8,9 @@ import CalButton from './CalButton';
 
 const ApplicationForm = () => {
   const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    revenue: '',
-    message: ''
+    clientLTV: '',
+    currentAcquisition: '',
+    timeframe: ''
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -26,105 +23,85 @@ const ApplicationForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-8 space-y-6 max-w-2xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-3">
+    <div className="mt-8 space-y-6 max-w-2xl mx-auto">
+      <div className="text-center mb-12">
+        <h2 className="text-2xl md:text-3xl terminal-text gold-glow mb-4">
+          Apply for Access to Elite Data
+        </h2>
+        <p className="text-gold/80 terminal-text">
+          We keep things simple. Just answer a few quick questions below.
+        </p>
+      </div>
+
+      <form onSubmit={handleSubmit} className="space-y-8">
+        <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            Full Name
+            Q1 – What's one client worth to your agency? – Lifetime Value (LTV)
           </label>
           <Input 
             type="text" 
-            placeholder="Your full name"
+            placeholder="e.g. $4,000 x 6 months = LTV. (input average LTV)"
             className="bg-dark-200 border-gold/30 text-gold terminal-text"
-            value={formState.name}
-            onChange={(e) => handleChange('name', e.target.value)}
+            value={formState.clientLTV}
+            onChange={(e) => handleChange('clientLTV', e.target.value)}
             required
           />
+          <p className="text-gold/60 terminal-text text-sm italic">
+            🧠 This question doesn't feel like a pitch—but it sets the groundwork for value anchoring.
+          </p>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            Email Address
+            Q2 – How do you currently get clients?
           </label>
-          <Input 
-            type="email" 
-            placeholder="your@email.com"
-            className="bg-dark-200 border-gold/30 text-gold terminal-text"
-            value={formState.email}
-            onChange={(e) => handleChange('email', e.target.value)}
+          <Textarea 
+            placeholder="Cold email, referrals, paid ads, etc."
+            className="bg-dark-200 border-gold/30 text-gold terminal-text h-24"
+            value={formState.currentAcquisition}
+            onChange={(e) => handleChange('currentAcquisition', e.target.value)}
             required
           />
+          <p className="text-gold/60 terminal-text text-sm italic">
+            🧠 Softly exposes inefficiencies and primes their brain to contrast "manual work" vs. Elite Data.
+          </p>
         </div>
-      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-3">
+        <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            Phone Number
+            Q3 – How soon are you looking to grow your client base?
           </label>
-          <Input 
-            type="tel" 
-            placeholder="Your phone number"
-            className="bg-dark-200 border-gold/30 text-gold terminal-text"
-            value={formState.phone}
-            onChange={(e) => handleChange('phone', e.target.value)}
-          />
+          <Select 
+            onValueChange={(value) => handleChange('timeframe', value)}
+            value={formState.timeframe}
+            required
+          >
+            <SelectTrigger className="bg-dark-200 border-gold/30 text-gold terminal-text">
+              <SelectValue placeholder="Select timeframe" />
+            </SelectTrigger>
+            <SelectContent className="bg-dark-200 border-gold/30 text-gold terminal-text">
+              <SelectItem value="immediately">Immediately</SelectItem>
+              <SelectItem value="two_weeks">Within the next 2 weeks</SelectItem>
+              <SelectItem value="exploring">Just looking around</SelectItem>
+            </SelectContent>
+          </Select>
+          <p className="text-gold/60 terminal-text text-sm italic">
+            🧠 Creates subtle urgency, filters real buyers, and still feels like a non-salesy logistics question.
+          </p>
         </div>
 
-        <div className="space-y-3">
-          <label className="block text-gold terminal-text">
-            Company Name
-          </label>
-          <Input 
-            type="text" 
-            placeholder="Your company name"
-            className="bg-dark-200 border-gold/30 text-gold terminal-text"
-            value={formState.company}
-            onChange={(e) => handleChange('company', e.target.value)}
-          />
-        </div>
-      </div>
-
-      <div className="space-y-3">
-        <label className="block text-gold terminal-text">
-          Annual Revenue
-        </label>
-        <Select 
-          onValueChange={(value) => handleChange('revenue', value)}
-          value={formState.revenue}
+        <CalButton 
+          type="submit" 
+          className="w-full mt-8"
         >
-          <SelectTrigger className="bg-dark-200 border-gold/30 text-gold terminal-text">
-            <SelectValue placeholder="Select revenue range" />
-          </SelectTrigger>
-          <SelectContent className="bg-dark-200 border-gold/30 text-gold terminal-text">
-            <SelectItem value="under_100k">Under $100K</SelectItem>
-            <SelectItem value="100k_500k">$100K - $500K</SelectItem>
-            <SelectItem value="500k_1m">$500K - $1M</SelectItem>
-            <SelectItem value="1m_5m">$1M - $5M</SelectItem>
-            <SelectItem value="over_5m">Over $5M</SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
-
-      <div className="space-y-3">
-        <label className="block text-gold terminal-text">
-          Your Message
-        </label>
-        <Textarea 
-          placeholder="Tell us about your business and goals" 
-          className="bg-dark-200 border-gold/30 text-gold terminal-text h-32"
-          value={formState.message}
-          onChange={(e) => handleChange('message', e.target.value)}
-        />
-      </div>
-
-      <CalButton 
-        type="submit" 
-        className="w-full"
-      >
-        Schedule a Strategy Session →
-      </CalButton>
-    </form>
+          🔐 APPLY TO SCALE WITH ELITE DATA
+        </CalButton>
+        
+        <p className="text-center text-gold/70 terminal-text text-sm mt-4">
+          We review every application manually. If your agency is a fit, we'll reach out.
+        </p>
+      </form>
+    </div>
   );
 };
 
