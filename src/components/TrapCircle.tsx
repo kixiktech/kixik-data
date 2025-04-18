@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import * as animeJs from 'animejs';
+import anime from 'animejs';
 
 interface TrapCircleProps {
   number: number;
@@ -11,7 +11,7 @@ const TrapCircle = ({ number }: TrapCircleProps) => {
 
   const handleHover = () => {
     setIsHovered(true);
-    animeJs.default({
+    anime({
       targets: `.trap-circle-${number}`,
       scale: 1.1,
       duration: 400,
@@ -21,7 +21,7 @@ const TrapCircle = ({ number }: TrapCircleProps) => {
 
   const handleHoverEnd = () => {
     setIsHovered(false);
-    animeJs.default({
+    anime({
       targets: `.trap-circle-${number}`,
       scale: 1,
       duration: 400,
