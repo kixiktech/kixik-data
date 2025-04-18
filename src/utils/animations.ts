@@ -1,5 +1,5 @@
 
-import anime from 'animejs';
+import * as anime from 'animejs';
 
 export const initHeroAnimation = () => {
   anime({
