@@ -1,17 +1,17 @@
 
-import anime from 'animejs';
+import * as anime from 'animejs';
 
 export const initHeroAnimation = () => {
-  anime({
+  anime.default({
     targets: '.hero-title',
     opacity: [0, 1],
     translateY: [20, 0],
     duration: 1200,
     easing: 'easeOutExpo',
-    delay: anime.stagger(100)
+    delay: anime.default.stagger(100)
   });
 
-  anime({
+  anime.default({
     targets: '.hero-description',
     opacity: [0, 1],
     translateY: [20, 0],
@@ -28,7 +28,7 @@ export const initSectionAnimations = () => {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          anime({
+          anime.default({
             targets: entry.target,
             opacity: [0, 1],
             translateY: [50, 0],
@@ -46,12 +46,12 @@ export const initSectionAnimations = () => {
 };
 
 export const initTrapCircleAnimations = () => {
-  anime({
+  anime.default({
     targets: '.trap-circle-small',
     scale: [0.5, 1],
     opacity: [0, 1],
     duration: 800,
-    delay: anime.stagger(200),
+    delay: anime.default.stagger(200),
     easing: 'easeOutElastic(1, .5)'
   });
 };
