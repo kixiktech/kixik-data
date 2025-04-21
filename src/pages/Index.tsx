@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -6,6 +7,7 @@ import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
+
 const Index = () => {
   return <div className="min-h-screen bg-black text-gold">
       {/* Header */}
@@ -84,6 +86,14 @@ const Index = () => {
           </h2>
 
           <div className="max-w-4xl mx-auto">
+            <img
+              src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
+              alt="Gold data surface wave"
+              className="mx-auto mb-12 max-h-72 object-contain"
+              loading="lazy"
+              width={600}
+              height={400}
+            />
             <ComparisonTables />
           </div>
         </div>
