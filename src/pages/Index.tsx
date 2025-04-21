@@ -32,6 +32,18 @@ const Index = () => {
 
       {/* Section 1: The Mirror (Problem Reflection) */}
       <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
+        {/* Moved image above the heading */}
+        <div className="flex justify-center mb-12">
+          <img
+            src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
+            alt="Gold data surface wave"
+            className="max-h-44 object-contain"
+            loading="lazy"
+            width={300}
+            height={200}
+          />
+        </div>
+
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-28">
           The 3 Deadly Traps Killing AI Agencies (You're Likely in One Now)
         </h2>
@@ -80,16 +92,6 @@ const Index = () => {
       {/* Section 2: The Bridge (Authority Demonstration) */}
       <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full">
         <div className="max-w-6xl mx-auto">
-          {/* Moved image up to top of section */}
-          <img
-            src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
-            alt="Gold data surface wave"
-            className="mx-auto mb-12 max-h-72 object-contain"
-            loading="lazy"
-            width={600}
-            height={400}
-          />
-
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
             How We Extract Gold from Noise
           </h2>
