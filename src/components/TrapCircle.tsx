@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import * as anime from 'animejs';
+import anime from 'animejs/lib/anime.es.js';
 
 interface TrapCircleProps {
   number: number;
