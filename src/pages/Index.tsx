@@ -19,8 +19,7 @@ const Index = () => {
       <section className="container mx-auto px-6 mt-16 md:mt-32 text-center max-w-5xl">
         <GoldLogo />
         <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12">
-          The Hidden Lead Data Scaling AI<br />
-          Agencies to $100k/Month
+          The Secret Cheat Code Lead Data Scaling AI Agencies to $100k/Month
         </h1>
         <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
           Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
@@ -155,3 +154,4 @@ const Index = () => {
     </div>;
 };
 export default Index;
+
