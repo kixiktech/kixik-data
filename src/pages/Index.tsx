@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { initHeroAnimation, initSectionAnimations, initTrapCircleAnimations } from '@/utils/animations';
+import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
 import ApplicationForm from '@/components/ApplicationForm';
@@ -7,26 +6,8 @@ import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import CalButton from '@/components/CalButton';
-
 const Index = () => {
-  useEffect(() => {
-    initHeroAnimation();
-    initSectionAnimations();
-    initTrapCircleAnimations();
-  }, []);
-
   return <div className="min-h-screen bg-black text-gold">
-      {/* Fixed Request Info Button */}
-      <div className="fixed top-8 right-6 z-50">
-        <CalButton 
-          className="shadow-xl shadow-gold/30 hover:shadow-gold/40 transition-shadow text-xs py-2 px-4" 
-          size="sm"
-        >
-          Request More Info
-        </CalButton>
-      </div>
-      
       {/* Header */}
       <header className="container mx-auto py-8 px-6">
         <Logo />
@@ -35,21 +16,21 @@ const Index = () => {
       {/* Hero Section: The Invitation to Power */}
       <section className="container mx-auto px-6 mt-16 md:mt-32 text-center max-w-5xl">
         <GoldLogo />
-        <h1 className="hero-title text-3xl md:text-5xl terminal-text gold-glow mb-12 opacity-0">
+        <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12">
           The Hidden Lead Data Scaling AI<br />
           Agencies to $100k/Month
         </h1>
-        <p className="hero-description text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16 opacity-0">
-          Why top agencies quietly stopped competing for scraps... and how<br className="hidden md:block" />
+        <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
+          Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
           they're monopolizing niches using our proprietary lead system
         </p>
-        <CalButton className="opacity-0 hero-description">
+        <button className="gold-button text-base md:text-lg">
           APPLY FOR PARTNERSHIP REVIEW →
-        </CalButton>
+        </button>
       </section>
 
       {/* Section 1: The Mirror (Problem Reflection) */}
-      <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl animate-section opacity-0">
+      <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-28">
           The 3 Deadly Traps Killing AI Agencies (You're Likely in One Now)
         </h2>
@@ -96,7 +77,7 @@ const Index = () => {
       </section>
 
       {/* Section 2: The Bridge (Authority Demonstration) */}
-      <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full animate-section opacity-0">
+      <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
             How We Extract Gold from Noise
@@ -109,7 +90,7 @@ const Index = () => {
       </section>
 
       {/* Section 3: The Elixir (Solution Revelation) */}
-      <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px] animate-section opacity-0">
+      <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
           Your New Reality as a Partner Agency
         </h2>
@@ -139,12 +120,12 @@ const Index = () => {
       </section>
 
       {/* Section 4: Case Studies & Testimonials */}
-      <section className="container mx-auto max-w-6xl py-0 px-[40px] animate-section opacity-0">
+      <section className="container mx-auto max-w-6xl py-0 px-[40px]">
         <TestimonialsSection />
       </section>
 
       {/* Section 5: The Threshold (CTA) */}
-      <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl animate-section opacity-0">
+      <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-20">
           Your Next 45 Days Will Determine the Next 45 Years
         </h2>
@@ -155,7 +136,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
         <div className="flex justify-center mb-8">
-          <Logo />
+          <Logo className="py-[49px]" />
         </div>
         <p className="text-center text-gold/40 text-sm terminal-text">
           © {new Date().getFullYear()} KIXIK TECHNOLOGIES. All rights reserved.
@@ -163,5 +144,4 @@ const Index = () => {
       </footer>
     </div>;
 };
-
 export default Index;
