@@ -80,19 +80,21 @@ const Index = () => {
       {/* Section 2: The Bridge (Authority Demonstration) */}
       <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full">
         <div className="max-w-6xl mx-auto">
+          {/* Moved image up to top of section */}
+          <img
+            src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
+            alt="Gold data surface wave"
+            className="mx-auto mb-12 max-h-72 object-contain"
+            loading="lazy"
+            width={600}
+            height={400}
+          />
+
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
             How We Extract Gold from Noise
           </h2>
 
           <div className="max-w-4xl mx-auto">
-            <img
-              src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
-              alt="Gold data surface wave"
-              className="mx-auto mb-12 max-h-72 object-contain"
-              loading="lazy"
-              width={600}
-              height={400}
-            />
             <ComparisonTables />
           </div>
         </div>
@@ -145,7 +147,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
         <div className="flex justify-center mb-8">
-          <Logo className="py-[49px]" />
+          <Logo />
         </div>
         <p className="text-center text-gold/40 text-sm terminal-text">
           © {new Date().getFullYear()} KIXIK TECHNOLOGIES. All rights reserved.
