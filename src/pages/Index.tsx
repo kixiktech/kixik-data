@@ -7,10 +7,8 @@ import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
-
 const Index = () => {
-  return (
-    <>
+  return <>
       <GrainOverlay />
       <div className="min-h-screen bg-black text-gold">
         {/* Header */}
@@ -34,17 +32,10 @@ const Index = () => {
         </section>
 
         {/* Section 1: The Mirror (Problem Reflection) */}
-        <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
+        <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
           {/* Moved image above the heading */}
           <div className="flex justify-center mb-12">
-            <img
-              src="/lovable-uploads/1cbf3498-fd4b-43a5-8922-433f4c4c09be.png"
-              alt="Gold quantum surface wave visualization"
-              className="max-h-96 md:max-h-[500px] w-full object-contain"
-              loading="lazy"
-              width={600}
-              height={600}
-            />
+            <img src="/lovable-uploads/1cbf3498-fd4b-43a5-8922-433f4c4c09be.png" alt="Gold quantum surface wave visualization" className="max-h-96 md:max-h-[500px] w-full object-contain" loading="lazy" width={600} height={600} />
           </div>
 
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-28">
@@ -159,8 +150,6 @@ const Index = () => {
           </p>
         </footer>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default Index;
