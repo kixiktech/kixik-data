@@ -38,12 +38,12 @@ const Index = () => {
           {/* Moved image above the heading */}
           <div className="flex justify-center mb-12">
             <img
-              src="/lovable-uploads/43883984-0872-4847-9813-7d6c60ef48e7.png"
-              alt="Gold data surface wave"
+              src="/lovable-uploads/1cbf3498-fd4b-43a5-8922-433f4c4c09be.png"
+              alt="Gold quantum surface wave visualization"
               className="max-h-44 object-contain"
               loading="lazy"
               width={300}
-              height={200}
+              height={300}
             />
           </div>
 
