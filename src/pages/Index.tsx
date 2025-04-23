@@ -7,13 +7,16 @@ import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
+import CornerLogo from '@/components/CornerLogo';
+
 const Index = () => {
   return <>
       <GrainOverlay />
       <div className="min-h-screen bg-black text-gold">
         {/* Header */}
-        <header className="container mx-auto py-8 px-6">
+        <header className="container mx-auto py-8 px-6 flex justify-between items-center">
           <Logo />
+          <CornerLogo />
         </header>
 
         {/* Hero Section: The Invitation to Power */}
