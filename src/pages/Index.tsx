@@ -40,10 +40,10 @@ const Index = () => {
             <img
               src="/lovable-uploads/1cbf3498-fd4b-43a5-8922-433f4c4c09be.png"
               alt="Gold quantum surface wave visualization"
-              className="max-h-44 object-contain"
+              className="max-h-96 md:max-h-[500px] w-full object-contain"
               loading="lazy"
-              width={300}
-              height={300}
+              width={600}
+              height={600}
             />
           </div>
 
