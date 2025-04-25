@@ -37,7 +37,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png"
               alt="3D gold wave pattern visualization"
-              className="w-full h-auto rounded-lg shadow-lg shadow-gold/20"
+              className="w-full h-auto rounded-lg"
             />
           </div>
           
