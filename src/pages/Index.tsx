@@ -132,9 +132,7 @@ const Index = () => {
                 Most businesses rely on broad lists, guesswork, and luck, endlessly hoping to stumble across buyers who might want their offer.
               </p>
 
-              <p className="text-lg md:text-xl text-gold/70 leading-relaxed">
-                But market leaders don't hope—they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.
-              </p>
+              <p className="text-lg md:text-xl text-gold/70 leading-relaxed">But market leaders don't hope — they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.</p>
 
               <p className="text-xl md:text-2xl text-gold font-bold">
                 Until now, accessing that data was impossible unless you were part of the privileged 1%.
