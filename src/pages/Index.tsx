@@ -157,9 +157,7 @@ const Index = () => {
             </div>
 
             <div className="flex justify-center">
-              <button className="gold-button text-base md:text-lg">
-                Secure My Elite Access →
-              </button>
+              <button className="gold-button text-base md:text-lg mx-[28px]">unlock elite data access →</button>
             </div>
           </div>
         </section>
