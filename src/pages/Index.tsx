@@ -118,6 +118,14 @@ const Index = () => {
 
         {/* Section 3: The Elixir (Solution Revelation) */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
+          <div className="w-full max-w-[800px] mx-auto mb-16">
+            <img 
+              src="/lovable-uploads/290d09a1-1a2c-4c1b-b77e-4ee036c29c5e.png"
+              alt="Radar tracking interface showing US map"
+              className="w-full h-auto opacity-80"
+            />
+          </div>
+
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
             Your New Reality as a Kixik Partner
           </h2>
