@@ -8,7 +8,6 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
-
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -34,11 +33,7 @@ const Index = () => {
         {/* Section 1: Pain Points */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
           <div className="w-full max-w-[800px] mx-auto mb-16">
-            <img 
-              src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png"
-              alt="3D gold wave pattern visualization"
-              className="w-full h-auto rounded-lg"
-            />
+            <img src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png" alt="3D gold wave pattern visualization" className="w-full h-auto rounded-lg" />
           </div>
 
           <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
@@ -117,7 +112,7 @@ const Index = () => {
         </section>
 
         {/* New Elite Data Access Section */}
-        <section className="container mx-auto px-6 py-36 md:py-48 bg-black max-w-6xl">
+        <section className="container mx-auto px-6 md:py-48 bg-black max-w-6xl py-[88px]">
           <div className="max-w-4xl mx-auto space-y-24">
             <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">
               Yes—The Data You Imagined Exists.<br />
@@ -173,13 +168,9 @@ const Index = () => {
         </section>
 
         {/* Section 3: The Elixir (Solution Revelation) */}
-        <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
+        <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[43px]">
           <div className="w-full max-w-[800px] mx-auto mb-16">
-            <img 
-              src="/lovable-uploads/290d09a1-1a2c-4c1b-b77e-4ee036c29c5e.png"
-              alt="Radar tracking interface showing US map"
-              className="w-full h-auto opacity-80"
-            />
+            <img src="/lovable-uploads/290d09a1-1a2c-4c1b-b77e-4ee036c29c5e.png" alt="Radar tracking interface showing US map" className="w-full h-auto opacity-80" />
           </div>
 
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
@@ -242,5 +233,4 @@ const Index = () => {
       </div>
     </>;
 };
-
 export default Index;
