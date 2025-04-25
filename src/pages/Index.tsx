@@ -31,55 +31,51 @@ const Index = () => {
           </button>
         </section>
 
-        {/* Section 1: The Mirror (Problem Reflection) */}
+        {/* Section 1: Pain Points */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
-          {/* Moved image above the heading */}
-          <div className="flex justify-center mb-12">
-            <img src="/lovable-uploads/1cbf3498-fd4b-43a5-8922-433f4c4c09be.png" alt="Gold quantum surface wave visualization" className="max-h-96 md:max-h-[500px] w-full object-contain" loading="lazy" width={600} height={600} />
-          </div>
-
-          <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-28">
-            The 3 Deadly Traps Killing AI Agencies (You're Likely in One Now)
+          <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
+            Why the Old Way Hurts
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24 mb-24">
-            <div className="text-center">
-              <div className="flex justify-center mb-6">
-                <TrapCircle number={1} />
-              </div>
-              <h3 className="terminal-text text-xl mb-6">Saturation Suffocation</h3>
-              <p className="terminal-text leading-relaxed">
-                Your outreach blends into 2,341 identical offers flooding 
-                decision-makers' inboxes daily.
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+            <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
+              <h3 className="terminal-text text-xl mb-4 text-gold">Stale Data Déjà-Vu</h3>
+              <p className="terminal-text leading-relaxed text-gold/80">
+                Today's 'fresh' list is the same CEO who got ten cold emails yesterday—yours is email eleven.
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="flex justify-center mb-6">
-                <TrapCircle number={2} />
-              </div>
-              <h3 className="terminal-text text-xl mb-6">Cold Lead Fatigue</h3>
-              <p className="terminal-text leading-relaxed">
-                Wasting 73% of your time chasing businesses who think 
-                they want automation vs. those actively hunting for it.
+            <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
+              <h3 className="terminal-text text-xl mb-4 text-gold">No Intent, No Pulse</h3>
+              <p className="terminal-text leading-relaxed text-gold/80">
+                Contacts with zero buying signal are like fish-shaped shadows—good luck hooking one.
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="flex justify-center mb-6">
-                <TrapCircle number={3} />
-              </div>
-              <h3 className="terminal-text text-xl mb-6">Community Cannibalism</h3>
-              <p className="terminal-text leading-relaxed">
-                Following the same 'proven' playbook as every course 
-                graduate—racing to the bottom while pretending success is one 
-                more tactic away.
+            <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
+              <h3 className="terminal-text text-xl mb-4 text-gold">Crowded Feeding Frenzy</h3>
+              <p className="terminal-text leading-relaxed text-gold/80">
+                Those lists go to every agency, so the only trick left is cutting price—and cutting deeper.
+              </p>
+            </div>
+
+            <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
+              <h3 className="terminal-text text-xl mb-4 text-gold">Time Slip</h3>
+              <p className="terminal-text leading-relaxed text-gold/80">
+                Every ghost lead steals another hour you could spend on delivery or, you know, sleeping.
+              </p>
+            </div>
+
+            <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors md:col-span-2">
+              <h3 className="terminal-text text-xl mb-4 text-gold">Budget Bleed</h3>
+              <p className="terminal-text leading-relaxed text-gold/80">
+                Ad platforms charge more each week while showing your ads to look-and-leave window-shoppers.
               </p>
             </div>
           </div>
 
-          <p className="text-xl md:text-2xl terminal-text text-center mt-36 gold-glow max-w-4xl mx-auto">
-            You didn't start an agency to become another replaceable cog in the AI gold rush.
+          <p className="text-xl md:text-2xl terminal-text text-center mt-24 gold-glow max-w-4xl mx-auto">
+            Feel any of that in your gut? Scroll—relief is seconds away.
           </p>
         </section>
 
