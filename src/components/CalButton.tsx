@@ -11,16 +11,15 @@ interface CalButtonProps extends ButtonProps {
 
 const CalButton = ({ className, children, size = "default", ...props }: CalButtonProps) => {
   return (
-    <Button
+    <button
       className={cn("gold-button", className)}
       data-cal-link="kyle-nix-kixiktechnologies/30min"
       data-cal-namespace="30min"
       data-cal-config='{"layout":"month_view","theme":"dark"}'
-      size={size}
       {...props}
     >
       {children}
-    </Button>
+    </button>
   );
 };
 

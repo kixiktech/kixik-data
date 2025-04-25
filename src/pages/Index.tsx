@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -27,7 +28,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
             Our algorithmic data engine watches +200 billion signals/week and hands you the people already hunting for what you sell.
           </p>
-          <CalButton>
+          <CalButton className="text-base md:text-lg">
             APPLY FOR PARTNERSHIP REVIEW →
           </CalButton>
         </section>
@@ -91,7 +92,7 @@ const Index = () => {
             <p className="text-xl md:text-2xl terminal-text gold-glow italic">It's not you — it's the outdated &amp; irrelevant data everyone else also relies on.</p>
             
             <div className="mt-12">
-              <CalButton>
+              <CalButton className="text-base md:text-lg">
                 Discover the Hidden Advantage
               </CalButton>
             </div>
@@ -159,7 +160,7 @@ const Index = () => {
             </div>
 
             <div className="flex justify-center">
-              <CalButton className="mx-[28px]">
+              <CalButton className="text-base md:text-lg mx-[28px]">
                 unlock elite data access →
               </CalButton>
             </div>
@@ -200,7 +201,7 @@ const Index = () => {
           </div>
 
           <div className="flex justify-center mt-24">
-            <CalButton>
+            <CalButton className="text-base md:text-lg">
               Discover how our partners become Market Leaders
             </CalButton>
           </div>
