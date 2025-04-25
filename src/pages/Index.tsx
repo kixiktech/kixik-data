@@ -152,6 +152,12 @@ const Index = () => {
               </p>
             </div>
           </div>
+
+          <div className="flex justify-center mt-24">
+            <button className="gold-button text-base md:text-lg">
+              Discover how our partners become Market Leaders
+            </button>
+          </div>
         </section>
 
         {/* Section 4: Case Studies & Testimonials */}
