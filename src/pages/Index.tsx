@@ -8,6 +8,7 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
+
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -118,6 +119,14 @@ const Index = () => {
               Yes—The Data You Imagined Exists.<br />
               And You've Just Found It.
             </h2>
+
+            <div className="w-full max-w-[800px] mx-auto mb-16">
+              <img 
+                src="/lovable-uploads/620a47e9-b748-457b-b277-d4c3cfebe9da.png" 
+                alt="Golden lighthouse illuminating binary data" 
+                className="w-full h-auto opacity-80" 
+              />
+            </div>
 
             <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">
               You've always suspected it: somewhere, behind velvet ropes, top companies quietly access a different kind of data—precision insights so potent, it practically feels unfair.
@@ -231,4 +240,5 @@ const Index = () => {
       </div>
     </>;
 };
+
 export default Index;
