@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@/components/ui/table';
+
 const ComparisonTables = () => {
   const competitorMethods = [{
     method: "Generic LinkedIn scraping",
@@ -15,7 +16,7 @@ const ComparisonTables = () => {
     description: "High volume, low relevance messaging"
   }];
   const ourEdge = [{
-    method: "60B weekly behavioral signals",
+    method: "+200B weekly tracked behavioral signals",
     description: "Real-time tracking of prospect activity"
   }, {
     method: "B2B2C identity linking",
@@ -71,4 +72,5 @@ const ComparisonTables = () => {
       </div>
     </div>;
 };
+
 export default ComparisonTables;
