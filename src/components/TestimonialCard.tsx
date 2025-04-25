@@ -18,7 +18,7 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
   const initials = name.split(' ').map(n => n[0]).join('');
   
   return (
-    <Card className="p-6 md:p-8 bg-dark-200/60 border border-gold/30 hover:border-gold/50 hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-gold/10 hover:shadow-gold/20">
+    <Card className="p-6 md:p-8 bg-dark-200/60 border border-gold/30 hover:border-gold/50 hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-gold/10 hover:shadow-gold/20 relative">
       <div className="flex items-center gap-4 mb-4">
         <Avatar className="h-16 w-16 border-2 border-gold/30">
           {!imageError ? (
@@ -46,8 +46,8 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
         ))}
       </div>
       
-      <div className="relative pb-8">
-        <p className="terminal-text text-gold/80 leading-relaxed mb-8">
+      <div className="relative pb-12">
+        <p className="terminal-text text-gold/80 leading-relaxed mb-4">
           {message}
         </p>
         <div className="absolute bottom-0 right-0">
@@ -63,3 +63,4 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
 };
 
 export default TestimonialCard;
+
