@@ -46,9 +46,18 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
         ))}
       </div>
       
-      <p className="terminal-text text-gold/80 leading-relaxed">
-        {message}
-      </p>
+      <div className="relative">
+        <p className="terminal-text text-gold/80 leading-relaxed mb-8">
+          {message}
+        </p>
+        <div className="absolute bottom-0 right-0">
+          <img 
+            src="/lovable-uploads/9b1f8d37-bf80-4bfa-b90c-0a302f65b7d6.png" 
+            alt="Verified by Stripe" 
+            className="h-6 opacity-70"
+          />
+        </div>
+      </div>
     </Card>
   );
 };
