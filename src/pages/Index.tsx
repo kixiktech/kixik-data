@@ -8,6 +8,7 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
+
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -119,7 +120,7 @@ const Index = () => {
               And You've Just Found It.
             </h2>
 
-            <div className="w-full max-w-[500px] mx-auto mb-16">
+            <div className="w-full max-w-[250px] mx-auto mb-16">
               <img alt="Golden lighthouse illuminating binary data" src="/lovable-uploads/c70d4628-b80c-4049-9af1-d45a69f7f374.png" className="w-full h-auto opacity-80 object-fill" />
             </div>
 
@@ -235,4 +236,5 @@ const Index = () => {
       </div>
     </>;
 };
+
 export default Index;
