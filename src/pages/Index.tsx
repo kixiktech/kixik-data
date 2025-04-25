@@ -41,6 +41,26 @@ const Index = () => {
             />
           </div>
           
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h2 className="text-3xl md:text-4xl terminal-text text-gold mb-8">
+              You're Doing Everything Right, But Using Confusing Tactics.
+            </h2>
+            
+            <p className="text-xl md:text-2xl terminal-text text-gold/80 leading-relaxed">
+              You're skilled, your offer is sharp, yet outreach feels like shouting into emptiness. Cold leads drain your energy, marketing platforms bleed your budget, and every competitor sounds exactly the same.
+            </p>
+            
+            <p className="text-xl md:text-2xl terminal-text gold-glow italic">
+              It's not you—it's the outdated/irrelevant data everyone else also relies on.
+            </p>
+            
+            <div className="mt-12">
+              <button className="gold-button text-base md:text-lg">
+                Discover the Hidden Advantage
+              </button>
+            </div>
+          </div>
+
           <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
             Why the Old Way Hurts
           </h2>
