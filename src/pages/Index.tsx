@@ -120,7 +120,7 @@ const Index = () => {
               And You've Just Found It.
             </h2>
 
-            <div className="w-full max-w-[800px] mx-auto mb-16">
+            <div className="w-full max-w-[500px] mx-auto mb-16">
               <img 
                 src="/lovable-uploads/620a47e9-b748-457b-b277-d4c3cfebe9da.png" 
                 alt="Golden lighthouse illuminating binary data" 
