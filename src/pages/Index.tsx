@@ -8,7 +8,6 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
-
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -34,16 +33,10 @@ const Index = () => {
         {/* Section 1: Pain Points */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
           <div className="w-full max-w-[800px] mx-auto mb-16">
-            <img 
-              src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png"
-              alt="3D gold wave pattern visualization"
-              className="w-full h-auto rounded-lg"
-            />
+            <img src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png" alt="3D gold wave pattern visualization" className="w-full h-auto rounded-lg" />
           </div>
-
-          <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
-            Why the Old Way Hurts
-          </h2>
+          
+          <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">Why You're Currently Playing a Losing Game</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
             <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
@@ -82,25 +75,9 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto text-center space-y-8 mt-24">
-            <h2 className="text-3xl md:text-4xl terminal-text text-gold mb-8">
-              You're Doing Everything Right... But Using Outdated, Over-Saturated, & Confusing Tactics.
-            </h2>
-            
-            <p className="text-xl md:text-2xl terminal-text text-gold/80 leading-relaxed">
-              You're skilled, your offer is sharp, yet outreach feels like shouting into emptiness. Cold leads drain your energy, marketing platforms bleed your budget, and every competitor sounds exactly the same.
-            </p>
-            
-            <p className="text-xl md:text-2xl terminal-text gold-glow italic">
-              It's not you—it's the outdated/irrelevant data everyone else also relies on.
-            </p>
-            
-            <div className="mt-12">
-              <button className="gold-button text-base md:text-lg">
-                Discover the Hidden Advantage
-              </button>
-            </div>
-          </div>
+          <p className="text-xl md:text-2xl terminal-text text-center mt-24 gold-glow max-w-4xl mx-auto">
+            Feel any of that in your gut? Scroll—relief is seconds away.
+          </p>
         </section>
 
         {/* Section 2: The Bridge (Authority Demonstration) */}
@@ -118,14 +95,6 @@ const Index = () => {
 
         {/* Section 3: The Elixir (Solution Revelation) */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
-          <div className="w-full max-w-[800px] mx-auto mb-16">
-            <img 
-              src="/lovable-uploads/290d09a1-1a2c-4c1b-b77e-4ee036c29c5e.png"
-              alt="Radar tracking interface showing US map"
-              className="w-full h-auto opacity-80"
-            />
-          </div>
-
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
             Your New Reality as a Kixik Partner
           </h2>
@@ -180,5 +149,4 @@ const Index = () => {
       </div>
     </>;
 };
-
 export default Index;
