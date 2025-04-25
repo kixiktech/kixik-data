@@ -36,21 +36,17 @@ const Index = () => {
             <img src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png" alt="3D gold wave pattern visualization" className="w-full h-auto rounded-lg" />
           </div>
           
-          <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">Why You're Currently Playing a Losing Game</h2>
+          <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">Today's 'fresh' list is the same &quot;decision maker&quot; who got ten cold emails yesterday... yours is email eleven.</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
             <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
               <h3 className="terminal-text text-xl mb-4 text-gold">Stale Data Déjà-Vu</h3>
-              <p className="terminal-text leading-relaxed text-gold/80">
-                Today's 'fresh' list is the same CEO who got ten cold emails yesterday—yours is email eleven.
-              </p>
+              <p className="terminal-text leading-relaxed text-gold/80">Contacts with zero buying signal are like fish-shaped shadows... good luck hooking one.</p>
             </div>
 
             <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
               <h3 className="terminal-text text-xl mb-4 text-gold">No Intent, No Pulse</h3>
-              <p className="terminal-text leading-relaxed text-gold/80">
-                Contacts with zero buying signal are like fish-shaped shadows—good luck hooking one.
-              </p>
+              <p className="terminal-text leading-relaxed text-gold/80">Your current data provider is selling the same static and underperforming lists to everyone who asks. This makes success a shot in the dark.</p>
             </div>
 
             <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
