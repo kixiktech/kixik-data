@@ -8,6 +8,7 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
+
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -113,8 +114,7 @@ const Index = () => {
         <section className="container mx-auto px-6 md:py-48 bg-black max-w-6xl py-[88px]">
           <div className="max-w-4xl mx-auto space-y-24">
             <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">
-              Yes—The Data You Imagined Exists.<br />
-              And You've Just Found It.
+              Yes — The Data Advantage You Imagined Exists. And We Unlock It For You.
             </h2>
 
             <div className="w-full max-w-[250px] mx-auto mb-16">
@@ -233,4 +233,5 @@ const Index = () => {
       </div>
     </>;
 };
+
 export default Index;
