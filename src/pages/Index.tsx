@@ -95,7 +95,7 @@ const Index = () => {
         {/* Section 3: The Elixir (Solution Revelation) */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
-            Your New Reality as a Partner Agency
+            Your New Reality as a Kixik Partner
           </h2>
 
           <div className="max-w-4xl mx-auto space-y-16">
