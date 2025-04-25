@@ -33,6 +33,14 @@ const Index = () => {
 
         {/* Section 1: Pain Points */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
+          <div className="w-full max-w-[800px] mx-auto mb-16">
+            <img 
+              src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png"
+              alt="3D gold wave pattern visualization"
+              className="w-full h-auto rounded-lg shadow-lg shadow-gold/20"
+            />
+          </div>
+          
           <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
             Why the Old Way Hurts
           </h2>
