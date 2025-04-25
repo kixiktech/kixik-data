@@ -116,6 +116,62 @@ const Index = () => {
           </div>
         </section>
 
+        {/* New Elite Data Access Section */}
+        <section className="container mx-auto px-6 py-36 md:py-48 bg-black max-w-6xl">
+          <div className="max-w-4xl mx-auto space-y-24">
+            <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">
+              Yes—The Data You Imagined Exists.<br />
+              And You've Just Found It.
+            </h2>
+
+            <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">
+              You've always suspected it: somewhere, behind velvet ropes, top companies quietly access a different kind of data—precision insights so potent, it practically feels unfair.
+            </p>
+
+            <p className="text-2xl md:text-3xl text-gold text-center">
+              You were right.
+            </p>
+
+            <div className="space-y-16">
+              <p className="text-lg md:text-xl text-gold/70 leading-relaxed">
+                Most businesses rely on broad lists, guesswork, and luck, endlessly hoping to stumble across buyers who might want their offer.
+              </p>
+
+              <p className="text-lg md:text-xl text-gold/70 leading-relaxed">
+                But market leaders don't hope—they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.
+              </p>
+
+              <p className="text-xl md:text-2xl text-gold font-bold">
+                Until now, accessing that data was impossible unless you were part of the privileged 1%.
+              </p>
+
+              <p className="text-2xl md:text-3xl text-gold text-center">
+                Today, that changes.
+              </p>
+
+              <div className="space-y-8">
+                <p className="text-lg md:text-xl text-gold/80 leading-relaxed">
+                  You've just uncovered Kixik Technologies—the hidden advantage behind countless quiet empires. Our elite-level intent data dissolves barriers, unlocks potential, and simplifies growth because you're only ever speaking to prospects who are already leaning forward. The people already looking for exactly what you are selling.
+                </p>
+
+                <p className="text-lg md:text-xl text-gold/80 leading-relaxed">
+                  Imagine, right now, the rush of possibility you're feeling—like discovering fire or harnessing electricity. A shift has already begun, and your business will never be the same.
+                </p>
+
+                <p className="text-xl md:text-2xl text-gold italic text-center mt-16">
+                  "This is the hidden leverage you've waited your whole entrepreneurial life to find."
+                </p>
+              </div>
+            </div>
+
+            <div className="flex justify-center">
+              <button className="gold-button text-base md:text-lg">
+                Secure My Elite Access →
+              </button>
+            </div>
+          </div>
+        </section>
+
         {/* Section 3: The Elixir (Solution Revelation) */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
           <div className="w-full max-w-[800px] mx-auto mb-16">
