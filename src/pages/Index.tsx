@@ -8,6 +8,8 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
+import CalButton from '@/components/CalButton';
+
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -25,9 +27,9 @@ const Index = () => {
           <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
             Our algorithmic data engine watches +200 billion signals/week and hands you the people already hunting for what you sell.
           </p>
-          <button className="gold-button text-base md:text-lg">
+          <CalButton>
             APPLY FOR PARTNERSHIP REVIEW →
-          </button>
+          </CalButton>
         </section>
 
         {/* Section 1: Pain Points */}
@@ -89,9 +91,9 @@ const Index = () => {
             <p className="text-xl md:text-2xl terminal-text gold-glow italic">It's not you — it's the outdated &amp; irrelevant data everyone else also relies on.</p>
             
             <div className="mt-12">
-              <button className="gold-button text-base md:text-lg">
+              <CalButton>
                 Discover the Hidden Advantage
-              </button>
+              </CalButton>
             </div>
           </div>
         </section>
@@ -157,7 +159,9 @@ const Index = () => {
             </div>
 
             <div className="flex justify-center">
-              <button className="gold-button text-base md:text-lg mx-[28px]">unlock elite data access →</button>
+              <CalButton className="mx-[28px]">
+                unlock elite data access →
+              </CalButton>
             </div>
           </div>
         </section>
@@ -196,9 +200,9 @@ const Index = () => {
           </div>
 
           <div className="flex justify-center mt-24">
-            <button className="gold-button text-base md:text-lg">
+            <CalButton>
               Discover how our partners become Market Leaders
-            </button>
+            </CalButton>
           </div>
         </section>
 
@@ -228,4 +232,5 @@ const Index = () => {
       </div>
     </>;
 };
+
 export default Index;
