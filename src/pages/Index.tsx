@@ -8,7 +8,6 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
-
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -87,9 +86,7 @@ const Index = () => {
               You're skilled, your offer is sharp, yet outreach feels like shouting into emptiness. Cold leads drain your energy, marketing platforms bleed your budget, and every competitor sounds exactly the same.
             </p>
             
-            <p className="text-xl md:text-2xl terminal-text gold-glow italic">
-              It's not you—it's the outdated/irrelevant data everyone else also relies on.
-            </p>
+            <p className="text-xl md:text-2xl terminal-text gold-glow italic">It's not you — it's the outdated &amp; irrelevant data everyone else also relies on.</p>
             
             <div className="mt-12">
               <button className="gold-button text-base md:text-lg">
@@ -236,5 +233,4 @@ const Index = () => {
       </div>
     </>;
 };
-
 export default Index;
