@@ -50,7 +50,7 @@ const Index = () => {
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
             <h3 className="terminal-text text-xl mb-4 text-gold">No Intent, No Pulse</h3>
             <p className="terminal-text leading-relaxed text-gold/80">
-              Contacts with zero buying signal are like fish-shaped shadows—good luck hooking one.
+              Contacts with zero buying signal are like fish-shaped shadows... good luck hooking one.
             </p>
           </div>
 
