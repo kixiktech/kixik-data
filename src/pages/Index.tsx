@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -61,7 +60,7 @@ const Index = () => {
             <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
               <h3 className="terminal-text text-xl mb-4 text-gold">Crowded Feeding Frenzy</h3>
               <p className="terminal-text leading-relaxed text-gold/80">
-                Those lists go to every agency, so the only trick left is cutting price—and cutting deeper.
+                Your current data provider is selling the same static and underperforming lists to everyone who asks. This makes success a shot in the dark.
               </p>
             </div>
 
