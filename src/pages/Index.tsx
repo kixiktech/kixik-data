@@ -8,7 +8,6 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
-
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -153,9 +152,7 @@ const Index = () => {
                   Imagine, right now, the rush of possibility you're feeling—like discovering fire or harnessing electricity. A shift has already begun, and your business will never be the same.
                 </p>
 
-                <p className="text-xl md:text-2xl text-gold italic text-center mt-16">
-                  "This is the hidden leverage you've waited your whole entrepreneurial life to find."
-                </p>
+                <p className="text-xl md:text-2xl text-gold italic text-center mt-16">This is the hidden leverage you've waited your whole entrepreneurial life to find.</p>
               </div>
             </div>
 
@@ -233,5 +230,4 @@ const Index = () => {
       </div>
     </>;
 };
-
 export default Index;
