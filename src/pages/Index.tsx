@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -85,7 +84,7 @@ const Index = () => {
 
           <div className="max-w-4xl mx-auto text-center space-y-8 mt-24">
             <h2 className="text-3xl md:text-4xl terminal-text text-gold mb-8">
-              You're Doing Everything Right, But Using Confusing Tactics.
+              You're Doing Everything Right... But Using Outdated, Over-Saturated, & Confusing Tactics.
             </h2>
             
             <p className="text-xl md:text-2xl terminal-text text-gold/80 leading-relaxed">
