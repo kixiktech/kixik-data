@@ -8,7 +8,6 @@ import ComparisonTables from '@/components/ComparisonTables';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
-
 const Index = () => {
   return <>
       <GrainOverlay />
@@ -22,9 +21,7 @@ const Index = () => {
         {/* Hero Section: The Invitation to Power */}
         <section className="container mx-auto px-6 mt-16 md:mt-32 text-center max-w-5xl">
           <GoldLogo />
-          <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12">
-            The Secret Cheat Code Lead Data Scaling AI Agencies to $100k/Month
-          </h1>
+          <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12 px-[32px]">The High-Intent Data That Unlocks Growth Like a Cheat Code</h1>
           <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">
             Why top agencies quietly stopped competing for scraps—and how<br className="hidden md:block" />
             they're monopolizing niches using our proprietary lead system
