@@ -46,15 +46,15 @@ const TestimonialCard: React.FC<{ data: TestimonialData }> = ({ data }) => {
         ))}
       </div>
       
-      <div className="relative">
+      <div className="relative pb-8">
         <p className="terminal-text text-gold/80 leading-relaxed mb-8">
           {message}
         </p>
         <div className="absolute bottom-0 right-0">
           <img 
-            src="/lovable-uploads/9b1f8d37-bf80-4bfa-b90c-0a302f65b7d6.png" 
+            src="/lovable-uploads/864a283b-dbfd-4b49-baa5-591169ae9142.png" 
             alt="Verified by Stripe" 
-            className="h-6 opacity-70"
+            className="h-8 opacity-80"
           />
         </div>
       </div>
