@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -91,8 +92,12 @@ const Index = () => {
 
         {/* Section 3: The Elixir (Solution Revelation) */}
         <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[78px]">
+          <div className="w-full max-w-[800px] mx-auto mb-16">
+            <img src="/lovable-uploads/f3227dd0-097a-4565-a61c-ac910c8cf91a.png" alt="Radar visualization" className="w-full h-auto opacity-80" />
+          </div>
+          
           <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
-            Your New Reality as a Kixik Partner
+            You're Doing Everything Right... But Using Outdated, Over-Saturated, & Confusing Tactics
           </h2>
 
           <div className="max-w-4xl mx-auto space-y-16">
