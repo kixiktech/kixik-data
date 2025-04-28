@@ -13,8 +13,8 @@ const CalButton = ({ className, children, size = "default", ...props }: CalButto
   return (
     <button
       className={cn("gold-button", className)}
-      data-cal-link="kyle-nix-kixiktechnologies/30min"
-      data-cal-namespace="30min"
+      data-cal-link="kyle-nix-kixiktechnologies/discovery-call"
+      data-cal-namespace="discovery-call"
       data-cal-config='{"layout":"month_view","theme":"dark"}'
       {...props}
     >
