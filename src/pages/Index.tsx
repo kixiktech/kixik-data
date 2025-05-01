@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -9,12 +10,22 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
 import CalButton from '@/components/CalButton';
+import { Link } from 'react-router-dom';
+
 const Index = () => {
   return <>
     <GrainOverlay />
     <div className="min-h-screen bg-black text-gold">
       <header className="container mx-auto py-8 px-6 flex justify-between items-center">
         <Logo />
+        <nav className="hidden md:flex space-x-8 items-center">
+          <Link to="/" className="text-gold hover:text-gold-light transition-colors terminal-text font-bold border-b border-gold">
+            Home
+          </Link>
+          <Link to="/blog" className="text-gold hover:text-gold-light transition-colors terminal-text">
+            Blog
+          </Link>
+        </nav>
         <CornerLogo />
       </header>
 
