@@ -106,9 +106,7 @@ const Index = () => {
 
       <section className="container mx-auto px-6 md:py-48 bg-black max-w-6xl py-[88px]">
         <div className="max-w-4xl mx-auto space-y-24">
-          <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">
-            Yes — The Data Advantage You Imagined Exists. And We Unlock It For You.
-          </h2>
+          <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">The Data Advantage You Always Thought Should Exist, Exists. And We Unlock It For You.</h2>
 
           <div className="w-full max-w-[250px] mx-auto mb-16">
             <img alt="Golden lighthouse illuminating binary data" src="/lovable-uploads/c70d4628-b80c-4049-9af1-d45a69f7f374.png" className="w-full h-auto opacity-80 object-fill" />
