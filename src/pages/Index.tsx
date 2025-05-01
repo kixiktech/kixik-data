@@ -112,9 +112,7 @@ const Index = () => {
             <img alt="Golden lighthouse illuminating binary data" src="/lovable-uploads/c70d4628-b80c-4049-9af1-d45a69f7f374.png" className="w-full h-auto opacity-80 object-fill" />
           </div>
 
-          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">
-            You've always suspected it: somewhere, behind velvet ropes, top companies quietly access a different kind of data—precision insights so potent, it practically feels unfair.
-          </p>
+          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">You've always suspected it: somewhere, behind velvet ropes, top companies quietly access a different kind of data. Precision insights so potent, it practically feels unfair.</p>
 
           <p className="text-2xl md:text-3xl text-gold text-center">
             You were right.
