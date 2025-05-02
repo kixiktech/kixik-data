@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -12,7 +11,6 @@ import CornerLogo from '@/components/CornerLogo';
 import CalButton from '@/components/CalButton';
 import DataMetricsVisual from '@/components/DataMetricsVisual';
 import { Link } from 'react-router-dom';
-
 const Index = () => {
   return <>
     <GrainOverlay />
@@ -47,9 +45,7 @@ const Index = () => {
           <img src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png" alt="3D gold wave pattern visualization" className="w-full h-auto rounded-lg" />
         </div>
 
-        <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20">
-          Why You're Currently Playing a Losing Game
-        </h2>
+        <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20 px-[35px]">Why You're Currently Playing a Losing Game. We Can Help.</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
