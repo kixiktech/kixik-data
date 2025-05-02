@@ -41,11 +41,11 @@ const Index = () => {
       <DataMetricsVisual />
 
       <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
+        <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20 px-[35px]">Why You're Currently Playing a Losing Game. We Can Help.</h2>
+        
         <div className="w-full max-w-[800px] mx-auto mb-16">
           <img src="/lovable-uploads/5b856b5c-252d-4377-bc63-a542828574ec.png" alt="3D gold wave pattern visualization" className="w-full h-auto rounded-lg" />
         </div>
-
-        <h2 className="text-3xl md:text-4xl terminal-text text-white text-center mb-20 px-[35px]">Why You're Currently Playing a Losing Game. We Can Help.</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
