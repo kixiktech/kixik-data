@@ -10,6 +10,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
 import CalButton from '@/components/CalButton';
+import DataMetricsVisual from '@/components/DataMetricsVisual';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -37,6 +38,9 @@ const Index = () => {
           APPLY FOR PARTNERSHIP REVIEW →
         </CalButton>
       </section>
+
+      {/* Data Metrics Visual Section */}
+      <DataMetricsVisual />
 
       <section className="container mx-auto px-6 md:py-48 max-w-6xl py-[92px]">
         <div className="w-full max-w-[800px] mx-auto mb-16">
