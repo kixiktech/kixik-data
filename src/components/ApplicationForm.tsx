@@ -39,6 +39,7 @@ const ApplicationForm = () => {
             Q1 – What's one client worth to your agency? – Lifetime Value (LTV)
           </label>
           <Input 
+            taller
             type="text" 
             placeholder="e.g. $4,000 x 6 months = LTV. (input average LTV)"
             className="bg-dark-200 border-gold/30 text-gold terminal-text"
