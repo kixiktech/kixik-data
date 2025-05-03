@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -201,10 +202,6 @@ const Index = () => {
             Discover how our partners become Market Leaders
           </CalButton>
         </div>
-      </section>
-
-      <section className="container mx-auto px-6 max-w-6xl py-0 px-[40px]">
-        <TestimonialsSection />
       </section>
 
       <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
