@@ -5,7 +5,6 @@ import ApplicationForm from '@/components/ApplicationForm';
 import GoldLogo from '@/components/GoldLogo';
 import { Separator } from '@/components/ui/separator';
 import ComparisonTables from '@/components/ComparisonTables';
-import TestimonialsSection from '@/components/TestimonialsSection';
 import GrainOverlay from '@/components/GrainOverlay';
 import CornerLogo from '@/components/CornerLogo';
 import CalButton from '@/components/CalButton';
