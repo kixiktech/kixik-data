@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -16,7 +15,7 @@ const Index = () => {
   return <>
     <GrainOverlay />
     <div className="min-h-screen bg-black text-gold">
-      <header className="container mx-auto py-6 px-6 flex justify-between items-center backdrop-blur-sm bg-black/80 sticky top-0 z-50 border-b border-gold/10">
+      <header className="container mx-auto py-6 px-6 flex justify-between items-center">
         <Logo />
         <nav className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="text-gold hover:text-gold-light transition-colors terminal-text font-bold border-b border-gold">
@@ -30,29 +29,29 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-6 pt-24 pb-20 text-center max-w-6xl">
+      <section className="container mx-auto px-6 pt-16 pb-24 text-center max-w-6xl">
         <div className="max-w-4xl mx-auto">
           <GoldLogo />
-          <div className="space-y-10">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl terminal-text gold-glow leading-tight">
+          <div className="space-y-12">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl terminal-text gold-glow leading-tight font-bold">
               Data Superpowers<br />
-              <span className="text-gold/80">Without the Complexity</span>
+              <span className="text-gold/80 text-4xl md:text-6xl lg:text-7xl">Without the Complexity</span>
             </h1>
-            <div className="max-w-3xl mx-auto space-y-8">
-              <p className="text-xl md:text-2xl lg:text-3xl terminal-text text-gold/90 leading-relaxed">
+            <div className="max-w-4xl mx-auto space-y-10">
+              <p className="text-2xl md:text-3xl lg:text-4xl terminal-text text-gold/90 leading-relaxed font-medium">
                 Kixik is your personal AI data agent.
               </p>
-              <p className="text-lg md:text-xl terminal-text text-gold/70 leading-relaxed max-w-2xl mx-auto">
+              <p className="text-xl md:text-2xl terminal-text text-gold/70 leading-relaxed max-w-3xl mx-auto">
                 It scans the world's information — from satellite imagery to social signals — and delivers clear, actionable answers.<br />
-                <span className="text-gold/60">No software to learn. No guesswork. Just results.</span>
+                <span className="text-gold/60 text-lg md:text-xl">No software to learn. No guesswork. Just results.</span>
               </p>
             </div>
-            <div className="pt-10">
-              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <CalButton className="text-lg md:text-xl px-10 py-5 shadow-lg shadow-gold/30 font-bold">
+            <div className="pt-12">
+              <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+                <CalButton className="text-xl md:text-2xl px-12 py-6 shadow-lg shadow-gold/30 font-bold">
                   Apply for Early Access
                 </CalButton>
-                <CalButton className="text-lg md:text-xl px-10 py-5 bg-transparent border-2 border-gold/40 hover:bg-gold/10 shadow-lg shadow-gold/10">
+                <CalButton className="text-xl md:text-2xl px-12 py-6 bg-transparent border-2 border-gold/40 hover:bg-gold/10 shadow-lg shadow-gold/10">
                   Join the Waitlist
                 </CalButton>
               </div>
