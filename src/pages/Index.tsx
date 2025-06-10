@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Logo from '@/components/Logo';
 import TrapCircle from '@/components/TrapCircle';
@@ -40,10 +39,10 @@ const Index = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <CalButton className="text-base md:text-lg">
-            Activate Kixik
+            Join the Waitlist
           </CalButton>
           <CalButton className="text-base md:text-lg bg-transparent border border-gold/30 hover:bg-gold/10">
-            See What It Can Do
+            Request Early Access
           </CalButton>
         </div>
       </section>
@@ -159,7 +158,7 @@ const Index = () => {
 
           <div className="flex justify-center">
             <CalButton className="text-base md:text-lg mx-[28px]">
-              Experience the Intelligence →
+              Get Early Access →
             </CalButton>
           </div>
         </div>
@@ -198,7 +197,7 @@ const Index = () => {
 
         <div className="flex justify-center mt-24">
           <CalButton className="text-base md:text-lg">
-            Discover Your Edge
+            Apply for Early Access
           </CalButton>
         </div>
       </section>
