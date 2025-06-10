@@ -11,22 +11,22 @@
     --background: 0 0% 0%;
     --foreground: 45 77% 52%;
 
-    --card: 0 0% 3%;
+    --card: 0 0% 0%;
     --card-foreground: 45 77% 52%;
 
-    --popover: 0 0% 3%;
+    --popover: 0 0% 0%;
     --popover-foreground: 45 77% 52%;
 
     --primary: 45 77% 52%;
     --primary-foreground: 0 0% 0%;
 
-    --secondary: 0 0% 9%;
+    --secondary: 0 0% 0%;
     --secondary-foreground: 45 77% 52%;
 
-    --muted: 0 0% 9%;
+    --muted: 0 0% 0%;
     --muted-foreground: 45 77% 42%;
 
-    --accent: 0 0% 9%;
+    --accent: 0 0% 0%;
     --accent-foreground: 45 77% 52%;
 
     --destructive: 0 84% 60%;
@@ -46,8 +46,8 @@
 
   body {
     @apply bg-black text-gold font-terminal antialiased;
-    background-image: 
-      radial-gradient(circle at center, #111111 0%, #000000 100%);
+    background-image: none;
+    background-color: #000000;
   }
 }
 
