@@ -29,32 +29,28 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-6 pt-16 pb-24 text-center max-w-6xl">
-        <div className="max-w-4xl mx-auto">
-          <GoldLogo />
+      <section className="container mx-auto px-6 pt-16 pb-24 text-center max-w-4xl">
+        <div className="max-w-3xl mx-auto">
+          <div className="mb-16">
+            <img src="/lovable-uploads/ce82fe41-d46d-43b4-8f3d-4d99e7dfd938.png" alt="Golden ring logo" className="w-32 h-32 mx-auto mb-12 opacity-90" />
+          </div>
+          
           <div className="space-y-12">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl terminal-text gold-glow leading-tight font-bold">
-              Data Superpowers<br />
-              <span className="text-gold/80 text-4xl md:text-6xl lg:text-7xl">Without the Complexity</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl terminal-text gold-glow leading-tight font-bold">
+              Data Superpowers—<br />
+              Delivered in Seconds
             </h1>
-            <div className="max-w-4xl mx-auto space-y-10">
-              <p className="text-2xl md:text-3xl lg:text-4xl terminal-text text-gold/90 leading-relaxed font-medium">
-                Kixik is your personal AI data agent.
-              </p>
-              <p className="text-xl md:text-2xl terminal-text text-gold/70 leading-relaxed max-w-3xl mx-auto">
-                It scans the world's information — from satellite imagery to social signals — and delivers clear, actionable answers.<br />
-                <span className="text-gold/60 text-lg md:text-xl">No software to learn. No guesswork. Just results.</span>
+            
+            <div className="max-w-2xl mx-auto space-y-8">
+              <p className="text-lg md:text-xl terminal-text text-gold/90 leading-relaxed">
+                Kixik is your covert AI agent. It extracts intelligence from satellite imagery, public records, live web data, and beyond—then gives you a plan. Ask anything. Move instantly.
               </p>
             </div>
-            <div className="pt-12">
-              <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
-                <CalButton className="text-xl md:text-2xl px-12 py-6 shadow-lg shadow-gold/30 font-bold">
-                  Apply for Early Access
-                </CalButton>
-                <CalButton className="text-xl md:text-2xl px-12 py-6 bg-transparent border-2 border-gold/40 hover:bg-gold/10 shadow-lg shadow-gold/10">
-                  Join the Waitlist
-                </CalButton>
-              </div>
+            
+            <div className="pt-8">
+              <CalButton className="text-base md:text-lg px-16 py-4 shadow-lg shadow-gold/30 font-bold uppercase tracking-wider">
+                JOIN EARLY ACCESS WAITLIST →
+              </CalButton>
             </div>
           </div>
         </div>
