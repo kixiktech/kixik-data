@@ -15,7 +15,7 @@ const ApplicationForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Application received. We'll be in touch soon.");
+    toast.success("Application received. Our team will review your submission.");
   };
 
   const handleChange = (field: string, value: string) => {
@@ -25,23 +25,23 @@ const ApplicationForm = () => {
   return (
     <div className="mt-8 space-y-6 max-w-2xl mx-auto">
       <div className="text-center mb-12">
-        <h3 className="text-2xl md:text-3xl terminal-text gold-glow mb-4">
-          Get Early Access
-        </h3>
+        <h2 className="text-2xl md:text-3xl terminal-text gold-glow mb-4">
+          Apply for Access to Elite Data
+        </h2>
         <p className="text-gold/80 terminal-text">
-          Tell us about your data challenges. We'll show you what's possible.
+          We keep things simple. Just answer a few quick questions below.
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-8">
         <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            What kind of decisions do you make regularly?
+            Q1 – What's one client worth to your agency? – Lifetime Value (LTV)
           </label>
           <Input 
             taller
             type="text" 
-            placeholder="e.g. Finding leads, sourcing materials, market research..."
+            placeholder="e.g. $4,000 x 6 months = LTV. (input average LTV)"
             className="bg-dark-200 border-gold/30 text-gold terminal-text"
             value={formState.clientLTV}
             onChange={(e) => handleChange('clientLTV', e.target.value)}
@@ -51,10 +51,10 @@ const ApplicationForm = () => {
 
         <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            What data do you currently use to make those decisions?
+            Q2 – How do you currently get clients?
           </label>
           <Textarea 
-            placeholder="Spreadsheets, Google searches, industry reports, etc."
+            placeholder="Cold email, referrals, paid ads, etc."
             className="bg-dark-200 border-gold/30 text-gold terminal-text h-24"
             value={formState.currentAcquisition}
             onChange={(e) => handleChange('currentAcquisition', e.target.value)}
@@ -64,7 +64,7 @@ const ApplicationForm = () => {
 
         <div className="space-y-4">
           <label className="block text-gold terminal-text">
-            How quickly do you need better insights?
+            Q3 – How soon are you looking to grow your client base?
           </label>
           <Select 
             onValueChange={(value) => handleChange('timeframe', value)}
@@ -75,9 +75,9 @@ const ApplicationForm = () => {
               <SelectValue placeholder="Select timeframe" />
             </SelectTrigger>
             <SelectContent className="bg-dark-200 border-gold/30 text-gold terminal-text">
-              <SelectItem value="immediately">I need this now</SelectItem>
-              <SelectItem value="two_weeks">Within the next few weeks</SelectItem>
-              <SelectItem value="exploring">Just exploring possibilities</SelectItem>
+              <SelectItem value="immediately">Immediately</SelectItem>
+              <SelectItem value="two_weeks">Within the next 2 weeks</SelectItem>
+              <SelectItem value="exploring">Just looking around</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -86,11 +86,11 @@ const ApplicationForm = () => {
           type="submit" 
           className="w-full mt-8"
         >
-          GET EARLY ACCESS
+          APPLY TO SCALE WITH ELITE DATA
         </CalButton>
         
         <p className="text-center text-gold/70 terminal-text text-sm mt-4">
-          We review every application personally. If you're a fit, we'll reach out within 24 hours.
+          We review every application manually. If your agency is a fit, we'll reach out.
         </p>
       </form>
     </div>
