@@ -22,9 +22,7 @@ const ApplicationForm = () => {
   };
   return <div className="mt-8 space-y-6 max-w-2xl mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-2xl md:text-3xl terminal-text gold-glow mb-4">
-          Apply for Access to Elite Data
-        </h2>
+        <h2 className="text-2xl md:text-3xl terminal-text gold-glow mb-4">Apply for Access to Elite Data Intel</h2>
         <p className="text-gold/80 terminal-text">
           We keep things simple. Just answer a few quick questions below.
         </p>
