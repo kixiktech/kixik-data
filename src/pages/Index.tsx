@@ -102,35 +102,25 @@ On Demand.</h1>
           <p className="text-2xl md:text-3xl text-gold text-center">Until now, only the top 1% of businesses could get it. Before, you would have to build out a full team of in house data engineers and scientists. Everyone else relied on broad guesses and hope to grow.</p>
 
           <div className="space-y-16">
-            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">You’ve got the data. We turn it into crystal‑clear insight that shows exactly where to grow revenue and cut costs. No guesswork, no dashboards to build—just on‑demand reports that guide your next move and make every decision a profit opportunity.</p>
+            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">You’ve got the data. We turn it into crystal‑clear insight that shows exactly where to grow revenue and cut costs. No guesswork, no dashboards to build — just on‑demand reports that guide your next move and make every decision a profit opportunity.</p>
 
             <p className="text-lg md:text-xl text-gold/70 leading-relaxed">But market leaders don't hope — they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.</p>
 
-            <p className="text-xl md:text-2xl text-gold font-bold">
-              Until now, accessing that data was impossible unless you were part of the privileged 1%.
-            </p>
+            
 
-            <p className="text-2xl md:text-3xl text-gold text-center">
-              Today, that changes.
-            </p>
+            
 
             <div className="space-y-8">
-              <p className="text-lg md:text-xl text-gold/80 leading-relaxed">
-                You've just uncovered Kixik Technologies—the hidden advantage behind countless quiet empires. Our elite-level intent data dissolves barriers, unlocks potential, and simplifies growth because you're only ever speaking to prospects who are already leaning forward. The people already looking for exactly what you are selling.
-              </p>
+              
 
-              <p className="text-lg md:text-xl text-gold/80 leading-relaxed">
-                Imagine, right now, the rush of possibility you're feeling—like discovering fire or harnessing electricity. A shift has already begun, and your business will never be the same.
-              </p>
+              
 
-              <p className="text-xl md:text-2xl text-gold italic text-center mt-16">This is the hidden leverage you've waited your whole entrepreneurial life to find.</p>
+              <p className="text-xl md:text-2xl text-gold italic text-center mt-16">This is the simple data advantage your business has always needed.</p>
             </div>
           </div>
 
           <div className="flex justify-center">
-            <CalButton className="text-base md:text-lg mx-[28px]">
-              unlock elite data access →
-            </CalButton>
+            <CalButton className="text-base md:text-lg mx-[28px]">UNLOCK ELITE DATA INTELLIGENCE →</CalButton>
           </div>
         </div>
       </section>
