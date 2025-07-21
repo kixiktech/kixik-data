@@ -91,22 +91,18 @@ On Demand.</h1>
 
       <section className="container mx-auto px-6 md:py-48 bg-black max-w-6xl py-[88px]">
         <div className="max-w-4xl mx-auto space-y-24">
-          <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">The Data Advantage You Always Thought Should Exist, Exists. And We Unlock It For You.</h2>
+          <h2 className="text-4xl md:text-5xl terminal-text gold-glow text-center leading-tight">The Secret Edge Big Companies Have — Now Yours to Use</h2>
 
           <div className="w-full max-w-[250px] mx-auto mb-16">
             <img alt="Golden lighthouse illuminating binary data" src="/lovable-uploads/c70d4628-b80c-4049-9af1-d45a69f7f374.png" className="w-full h-auto opacity-80 object-fill" />
           </div>
 
-          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">You've always suspected it: somewhere, behind velvet ropes, top companies quietly access a different kind of data. Precision insights so potent, it practically feels unfair.</p>
+          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">You always knew the top players had something you didn’t—ultra‑precise data that feels like a sneak peek at tomorrow.</p>
 
-          <p className="text-2xl md:text-3xl text-gold text-center">
-            You were right.
-          </p>
+          <p className="text-2xl md:text-3xl text-gold text-center">Until now, only the top 1% of businesses could get it. Before, you would have to build out a full team of in house data engineers and scientists. Everyone else relied on broad guesses and hope to grow.</p>
 
           <div className="space-y-16">
-            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">
-              Most businesses rely on broad lists, guesswork, and luck, endlessly hoping to stumble across buyers who might want their offer.
-            </p>
+            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">Kixik changes that. We unlock the same powerful intent data for you—showing exactly who’s ready to buy, when they’re shopping, and how to reach them.</p>
 
             <p className="text-lg md:text-xl text-gold/70 leading-relaxed">But market leaders don't hope — they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.</p>
 
