@@ -97,12 +97,12 @@ On Demand.</h1>
             <img alt="Golden lighthouse illuminating binary data" src="/lovable-uploads/c70d4628-b80c-4049-9af1-d45a69f7f374.png" className="w-full h-auto opacity-80 object-fill" />
           </div>
 
-          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">You always knew the top players had something you didn’t—ultra‑precise data that feels like a sneak peek at tomorrow.</p>
+          <p className="text-xl md:text-2xl text-gold/80 text-center leading-relaxed max-w-3xl mx-auto">You always knew the top players had something you didn’t—ultra‑precise data intelligence that feels like a sneak peek at tomorrow.</p>
 
           <p className="text-2xl md:text-3xl text-gold text-center">Until now, only the top 1% of businesses could get it. Before, you would have to build out a full team of in house data engineers and scientists. Everyone else relied on broad guesses and hope to grow.</p>
 
           <div className="space-y-16">
-            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">Kixik changes that. We unlock the same powerful intent data for you—showing exactly who’s ready to buy, when they’re shopping, and how to reach them.</p>
+            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">You’ve got the data. We turn it into crystal‑clear insight that shows exactly where to grow revenue and cut costs. No guesswork, no dashboards to build—just on‑demand reports that guide your next move and make every decision a profit opportunity.</p>
 
             <p className="text-lg md:text-xl text-gold/70 leading-relaxed">But market leaders don't hope — they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.</p>
 
