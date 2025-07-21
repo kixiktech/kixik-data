@@ -60,12 +60,6 @@ On Demand.</h1>
             <p className="terminal-text leading-relaxed text-gold/80">We deliver on‑demand, drill‑down analyses so you stay three steps ahead.</p>
           </div>
 
-          <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors md:col-span-2">
-            <h3 className="terminal-text text-xl mb-4 text-gold">Budget Bleed</h3>
-            <p className="terminal-text leading-relaxed text-gold/80">
-              Ad platforms charge more each week while showing your ads to look-and-leave window-shoppers.
-            </p>
-          </div>
         </div>
 
         <div className="max-w-4xl mx-auto text-center space-y-8 mt-24">
