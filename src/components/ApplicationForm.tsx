@@ -57,9 +57,7 @@ const ApplicationForm = () => {
 
         <CalButton type="submit" className="w-full mt-8">APPLY TO SCALE WITH ELITE DATA intelligence</CalButton>
         
-        <p className="text-center text-gold/70 terminal-text text-sm mt-4">
-          We review every application manually. If your agency is a fit, we'll reach out.
-        </p>
+        <p className="text-center text-gold/70 terminal-text text-sm mt-4">We review every application manually. If your business is a fit, we'll reach out.</p>
       </form>
     </div>;
 };
