@@ -17,14 +17,6 @@ const Index = () => {
     <div className="min-h-screen bg-black text-gold">
       <header className="container mx-auto py-8 px-6 flex justify-between items-center">
         <Logo />
-        <nav className="hidden md:flex space-x-8 items-center">
-          <Link to="/" className="text-gold hover:text-gold-light transition-colors terminal-text font-bold border-b border-gold">
-            Home
-          </Link>
-          <Link to="/blog" className="text-gold hover:text-gold-light transition-colors terminal-text">
-            Blog
-          </Link>
-        </nav>
         <CornerLogo />
       </header>
 
