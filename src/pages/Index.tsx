@@ -63,15 +63,11 @@ On Demand.</h1>
         </div>
 
         <div className="max-w-4xl mx-auto text-center space-y-8 mt-24">
-          <h2 className="text-3xl md:text-4xl terminal-text text-gold mb-8">
-            You're Doing Everything Right... But Using Outdated, Over-Saturated, & Confusing Tactics.
-          </h2>
+          <h2 className="text-3xl md:text-4xl terminal-text text-gold mb-8">You're Trying to Do Everything Right... But You’re Flying Blind.</h2>
           
-          <p className="text-xl md:text-2xl terminal-text text-gold/80 leading-relaxed">
-            You're skilled, your offer is sharp, yet outreach feels like shouting into emptiness. Cold leads drain your energy, marketing platforms bleed your budget, and every competitor sounds exactly the same.
-          </p>
+          <p className="text-xl md:text-2xl terminal-text text-gold/80 leading-relaxed">You know your business inside‑out, yet outdated reports and generic dashboards leave you guessing. Hours spent building spreadsheets, chasing stale metrics, and wondering which levers actually drive profit. It’s not you — it’s the data.</p>
           
-          <p className="text-xl md:text-2xl terminal-text gold-glow italic">It's not you — it's the outdated &amp; irrelevant data everyone else also relies on.</p>
+          <p className="text-xl md:text-2xl terminal-text gold-glow italic">With Kixik’s on‑demand analytics service, you send us your numbers and we transform them into clear, action‑ready insights. We uncover hidden revenue streams, plug costly leaks, and give you the focus you need to win.</p>
           
           <div className="mt-12">
             <CalButton className="text-base md:text-lg">
