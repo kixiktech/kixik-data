@@ -30,16 +30,12 @@ const ApplicationForm = () => {
 
       <form onSubmit={handleSubmit} className="space-y-8">
         <div className="space-y-4">
-          <label className="block text-gold terminal-text">
-            Q1 – What's one client worth to your agency? – Lifetime Value (LTV)
-          </label>
+          <label className="block text-gold terminal-text">Q1 – What’s your company’s approximate annual revenue?</label>
           <Input taller type="text" placeholder="e.g. $4,000 x 6 months = LTV. (input average LTV)" className="bg-dark-200 border-gold/30 text-gold terminal-text" value={formState.clientLTV} onChange={e => handleChange('clientLTV', e.target.value)} required />
         </div>
 
         <div className="space-y-4">
-          <label className="block text-gold terminal-text">
-            Q2 – How do you currently get clients?
-          </label>
+          <label className="block text-gold terminal-text">Q2 – Which systems do you use for sales, inventory, and customer data?</label>
           <Textarea placeholder="Cold email, referrals, paid ads, etc." className="bg-dark-200 border-gold/30 text-gold terminal-text h-24" value={formState.currentAcquisition} onChange={e => handleChange('currentAcquisition', e.target.value)} required />
         </div>
 
