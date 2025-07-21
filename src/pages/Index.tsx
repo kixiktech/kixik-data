@@ -41,31 +41,23 @@ On Demand.</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
-            <h3 className="terminal-text text-xl mb-4 text-gold">Stale Data Déjà-Vu</h3>
-            <p className="terminal-text leading-relaxed text-gold/80">
-              Today's 'fresh' list is the same "decision maker" who got ten cold emails yesterday... yours is email eleven.
-            </p>
+            <h3 className="terminal-text text-xl mb-4 text-gold">Decisions by Gut, Not Data</h3>
+            <p className="terminal-text leading-relaxed text-gold/80">We arm you with fact‑backed insight so you never have to guess again.</p>
           </div>
 
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
-            <h3 className="terminal-text text-xl mb-4 text-gold">No Intent, No Pulse</h3>
-            <p className="terminal-text leading-relaxed text-gold/80">
-              Contacts with zero buying signal are like fish-shaped shadows... good luck hooking one.
-            </p>
+            <h3 className="terminal-text text-xl mb-4 text-gold">Hidden Margin Leaks</h3>
+            <p className="terminal-text leading-relaxed text-gold/80">We pinpoint exactly where profit is slipping through the cracks.</p>
           </div>
 
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
-            <h3 className="terminal-text text-xl mb-4 text-gold">Crowded Feeding Frenzy</h3>
-            <p className="terminal-text leading-relaxed text-gold/80">
-              Your current data provider is selling the same static and underperforming lists to everyone who asks. This makes success a shot in the dark.
-            </p>
+            <h3 className="terminal-text text-xl mb-4 text-gold">Buried in Data Chaos</h3>
+            <p className="terminal-text leading-relaxed text-gold/80">We cut through your raw numbers and reveal the handful of metrics that matter.</p>
           </div>
 
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors">
-            <h3 className="terminal-text text-xl mb-4 text-gold">Time Slip</h3>
-            <p className="terminal-text leading-relaxed text-gold/80">
-              Every ghost lead steals another hour you could spend on delivery or, you know, sleeping.
-            </p>
+            <h3 className="terminal-text text-xl mb-4 text-gold">Slow, Manual Reports</h3>
+            <p className="terminal-text leading-relaxed text-gold/80">We deliver on‑demand, drill‑down analyses so you stay three steps ahead.</p>
           </div>
 
           <div className="bg-dark-100/50 border border-gold/10 p-8 backdrop-blur-sm hover:border-gold/30 transition-colors md:col-span-2">
