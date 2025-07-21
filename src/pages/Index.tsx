@@ -104,7 +104,7 @@ On Demand.</h1>
           <div className="space-y-16">
             <p className="text-lg md:text-xl text-gold/70 leading-relaxed">You’ve got the data. We turn it into crystal‑clear insight that shows exactly where to grow revenue and cut costs. No guesswork, no dashboards to build — just on‑demand reports that guide your next move and make every decision a profit opportunity.</p>
 
-            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">But market leaders don't hope — they know. They privately wield intent data so accurate, it's like having tomorrow's newspaper today. Data that pinpoints exactly who is looking, exactly when they're looking, and exactly how to reach them.</p>
+            <p className="text-lg md:text-xl text-gold/70 leading-relaxed">The most successful businesses don’t guess — they know. They leverage our on‑demand analytics so precise it’s like seeing the future: who’s ready to buy, when they’ll buy, and exactly how to sell to them. Anything you need to make </p>
 
             
 
