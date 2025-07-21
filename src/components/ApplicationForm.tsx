@@ -36,7 +36,7 @@ const ApplicationForm = () => {
 
         <div className="space-y-4">
           <label className="block text-gold terminal-text">Q2 – Which systems do you use for sales, inventory, and customer data?</label>
-          <Textarea placeholder="Cold email, referrals, paid ads, etc." className="bg-dark-200 border-gold/30 text-gold terminal-text h-24" value={formState.currentAcquisition} onChange={e => handleChange('currentAcquisition', e.target.value)} required />
+          <Textarea placeholder="e.g. Shopify, QuickBooks, Excel" className="bg-dark-200 border-gold/30 text-gold terminal-text h-24" value={formState.currentAcquisition} onChange={e => handleChange('currentAcquisition', e.target.value)} required />
         </div>
 
         <div className="space-y-4">
