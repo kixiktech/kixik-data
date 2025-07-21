@@ -115,7 +115,7 @@ On Demand.</h1>
 
               
 
-              <p className="text-xl md:text-2xl text-gold italic text-center mt-16">This is the simple data advantage your business has always needed.</p>
+              <p className="text-xl md:text-2xl text-gold italic text-center mt-16">This is the simple data advantage your business has always needed. Without the price tag of building it our in-house.</p>
             </div>
           </div>
 
