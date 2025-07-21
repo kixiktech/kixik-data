@@ -150,24 +150,18 @@ On Demand.</h1>
 
         <div className="max-w-4xl mx-auto space-y-16">
           <div className="border border-gold/30 p-8 md:p-12">
-            <h3 className="terminal-text text-2xl mb-6">Precision Nuclear Targeting</h3>
-            <p className="terminal-text">
-              We track prospects who searched for exact solutions you offer 3.2x before contacting you.
-            </p>
+            <h3 className="terminal-text text-2xl mb-6">On‑Demand Insights</h3>
+            <p className="terminal-text">Have a hunch or a new idea? We’ll build you a custom report fast so you can act immediately.</p>
           </div>
 
           <div className="border border-gold/30 p-8 md:p-12">
-            <h3 className="terminal-text text-2xl mb-6">CRM Autoload System</h3>
-            <p className="terminal-text">
-              Hot leads auto-populate in your HubSpot/Salesforce before they finish reading your competitor's outdated blog.
-            </p>
+            <h3 className="terminal-text text-2xl mb-6">Hidden Profit Plans</h3>
+            <p className="terminal-text">We uncover the untapped revenue hiding in your own data and hand you simple, ready‑to‑run money models.</p>
           </div>
 
           <div className="border border-gold/30 p-8 md:p-12">
-            <h3 className="terminal-text text-2xl mb-6">Ghost Competition Protocol</h3>
-            <p className="terminal-text">
-              We never sell similar niches—your territory remains yours alone.
-            </p>
+            <h3 className="terminal-text text-2xl mb-6">Your On‑Call Data Team</h3>
+            <p className="terminal-text">Access world‑class analysts and data scientists without the payroll—just expert answers when you need them.</p>
           </div>
         </div>
 
