@@ -77,17 +77,7 @@ On Demand.</h1>
         </div>
       </section>
 
-      <section className="container mx-auto px-6 py-36 md:py-48 bg-dark-100 max-w-full">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-24">
-            How We Extract Gold from Noise
-          </h2>
-
-          <div className="max-w-4xl mx-auto">
-            <ComparisonTables />
-          </div>
-        </div>
-      </section>
+      
 
       <section className="container mx-auto px-6 md:py-48 bg-black max-w-6xl py-[88px]">
         <div className="max-w-4xl mx-auto space-y-24">
