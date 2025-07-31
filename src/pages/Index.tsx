@@ -149,9 +149,7 @@ On Demand.</h1>
       </section>
 
       <section className="container mx-auto px-6 py-36 md:py-48 max-w-6xl">
-        <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-20">
-          Your Next 45 Days Will Determine the Next 45 Years
-        </h2>
+        <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-20">On-demand intelligence for less than an entry-level intern. You will be surprised how much value we can provide your business.</h2>
 
         <ApplicationForm />
       </section>
