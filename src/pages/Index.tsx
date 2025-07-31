@@ -21,8 +21,7 @@ const Index = () => {
 
       <section className="container mx-auto px-6 mt-16 md:mt-32 text-center max-w-5xl">
         <GoldLogo />
-        <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12 px-[32px]">A World-Class Team of Analysts and Data Scientists.
-On Demand.</h1>
+        <h1 className="text-3xl md:text-5xl terminal-text gold-glow mb-12 px-[32px]">A World-Class Team of Analysts and Data Scientists. On Demand. Specifically designed for SMBs.</h1>
         <p className="text-xl md:text-2xl terminal-text max-w-3xl mx-auto text-gold/80 mb-16">No software to learn. No dashboards to build. Just answers you can act on right now. What used to be a luxury reserved for the biggest companies is now your unfair advantage.</p>
         <CalButton className="text-base md:text-lg">
           APPLY FOR PARTNERSHIP REVIEW →
