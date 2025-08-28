@@ -143,11 +143,11 @@ const DataSecrets = () => {
       <MatrixBackground />
       
       {/* Navigation */}
-      <div className="relative z-10 flex justify-between p-6">
+      <div className="relative z-50 flex justify-between p-6">
         <Button
           variant="ghost"
           asChild
-          className="text-primary bg-black border border-primary/30 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow"
+          className="text-primary bg-black border border-primary/30 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow relative z-50"
         >
           <Link to="/" aria-label="Back to Home">
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -158,7 +158,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           asChild
-          className="text-primary bg-black border border-primary/30 w-10 h-10 p-0 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow"
+          className="text-primary bg-black border border-primary/30 w-10 h-10 p-0 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow relative z-50"
         >
           <Link to="/" aria-label="Close and go home">
             <X className="w-5 h-5" />
