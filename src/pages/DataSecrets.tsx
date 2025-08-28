@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { X, ArrowLeft } from "lucide-react";
 
@@ -136,19 +136,7 @@ const TypewriterText = ({ text, delay = 0, onComplete }: { text: string; delay?:
 };
 
 const DataSecrets = () => {
-  const navigate = useNavigate();
   const [showSubtext, setShowSubtext] = useState(false);
-
-  const handleGoHome = () => {
-    console.log('Navigating to home...');
-    try {
-      navigate('/', { replace: true });
-    } catch (error) {
-      console.error('Navigation error:', error);
-      // Fallback to window location
-      window.location.href = '/';
-    }
-  };
 
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
@@ -158,19 +146,23 @@ const DataSecrets = () => {
       <div className="relative z-10 flex justify-between p-6">
         <Button
           variant="ghost"
-          onClick={handleGoHome}
-          className="text-primary bg-black border border-primary/30 hover:bg-primary hover:text-primary-foreground hover-gold-glow"
+          asChild
+          className="text-primary bg-black border border-primary/30 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow"
         >
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to Home
+          <Link to="/" aria-label="Back to Home">
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Home
+          </Link>
         </Button>
         
         <Button
           variant="ghost"
-          onClick={handleGoHome}
-          className="text-primary bg-black border border-primary/30 w-10 h-10 p-0 hover-gold-glow"
+          asChild
+          className="text-primary bg-black border border-primary/30 w-10 h-10 p-0 hover:bg-primary hover:text-primary-foreground hover-gold-glow active-gold-glow focus-gold-glow"
         >
-          <X className="w-5 h-5" />
+          <Link to="/" aria-label="Close and go home">
+            <X className="w-5 h-5" />
+          </Link>
         </Button>
       </div>
 
