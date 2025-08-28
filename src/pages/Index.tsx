@@ -151,9 +151,13 @@ const Index = () => {
         <h2 className="text-3xl md:text-4xl terminal-text gold-glow text-center mb-20">On-demand intelligence for less than an entry-level intern. You will be surprised how much value we can provide your business.</h2>
 
         <ApplicationForm />
-        
-        {/* Hidden link to data secrets page */}
-        <div className="mt-16 text-center">
+      </section>
+
+      <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
+        <div className="flex justify-center mb-8">
+          <Logo />
+        </div>
+        <div className="flex justify-between items-center">
           <Link 
             to="/data-secrets" 
             className="text-gold/30 hover:text-gold/60 text-sm terminal-text transition-colors underline"
@@ -161,13 +165,7 @@ const Index = () => {
             Post Form Data Secrets
           </Link>
         </div>
-      </section>
-
-      <footer className="container mx-auto px-6 py-12 border-t border-gold/20 mt-16">
-        <div className="flex justify-center mb-8">
-          <Logo />
-        </div>
-        <p className="text-center text-gold/40 text-sm terminal-text">
+        <p className="text-center text-gold/40 text-sm terminal-text mt-4">
           © {new Date().getFullYear()} KIXIK TECHNOLOGIES. All rights reserved.
         </p>
       </footer>
