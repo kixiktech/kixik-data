@@ -25,10 +25,10 @@ const MatrixBackground = () => {
     }
 
     const draw = () => {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.8)'; // Black text
+      ctx.fillStyle = 'rgba(212, 175, 55, 0.1)'; // Gold with low opacity
       ctx.font = `${fontSize}px 'VT323', monospace`;
 
       for (let i = 0; i < drops.length; i++) {
@@ -66,7 +66,7 @@ const MatrixBackground = () => {
   );
 };
 
-const TypewriterText = ({ text, delay = 0, onComplete, isPermanent = false }: { text: string; delay?: number; onComplete?: () => void; isPermanent?: boolean }) => {
+const TypewriterText = ({ text, delay = 0, onComplete }: { text: string; delay?: number; onComplete?: () => void }) => {
   const [displayText, setDisplayText] = useState("");
   const [isGlitching, setIsGlitching] = useState(false);
 
@@ -90,7 +90,7 @@ const TypewriterText = ({ text, delay = 0, onComplete, isPermanent = false }: { 
   }, [text, delay, onComplete]);
 
   useEffect(() => {
-    if (displayText === text && !isPermanent) {
+    if (displayText === text) {
       const glitchInterval = setInterval(() => {
         setIsGlitching(true);
         setTimeout(() => setIsGlitching(false), 200);
@@ -98,11 +98,11 @@ const TypewriterText = ({ text, delay = 0, onComplete, isPermanent = false }: { 
 
       return () => clearInterval(glitchInterval);
     }
-  }, [displayText, text, isPermanent]);
+  }, [displayText, text]);
 
   const glitchChars = "!@#$%^&*()_+-={}[]|\\:;\"'<>,.?/~`";
   
-  const glitchedText = isGlitching && !isPermanent
+  const glitchedText = isGlitching 
     ? text.split('').map((char, index) => 
         Math.random() > 0.8 ? glitchChars[Math.floor(Math.random() * glitchChars.length)] : char
       ).join('')
@@ -112,7 +112,7 @@ const TypewriterText = ({ text, delay = 0, onComplete, isPermanent = false }: { 
     <span className={`${isGlitching ? 'animate-pulse' : ''}`}>
       {glitchedText}
       {displayText !== text && (
-        <span className="animate-pulse text-black">|</span>
+        <span className="animate-pulse text-primary">|</span>
       )}
     </span>
   );
@@ -127,7 +127,7 @@ const DataSecrets = () => {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #d4af37 0%, #b8941f 100%)' }}>
+    <div className="min-h-screen bg-black relative overflow-hidden">
       <MatrixBackground />
       
       {/* Navigation */}
@@ -135,7 +135,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-black hover:text-white hover:bg-black/20 border border-black/30"
+          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Home
@@ -144,7 +144,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-black hover:text-white hover:bg-black/20 border border-black/30 w-10 h-10 p-0"
+          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 w-10 h-10 p-0"
         >
           <X className="w-5 h-5" />
         </Button>
@@ -153,17 +153,16 @@ const DataSecrets = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 -mt-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h1 className="text-4xl md:text-6xl font-terminal text-black leading-tight">
+          <h1 className="text-4xl md:text-6xl font-terminal text-primary leading-tight">
             <TypewriterText 
               text="Your Data Holds Secrets. We Unlock Them. Giving You the Power of a Fortune 500 Data Team Without Paying for One."
               onComplete={() => setShowSubtext(true)}
-              isPermanent={true}
             />
           </h1>
           
           {showSubtext && (
             <div className="animate-fade-in">
-              <p className="text-xl md:text-2xl font-terminal text-black/80">
+              <p className="text-xl md:text-2xl font-terminal text-primary/80">
                 <TypewriterText 
                   text="Welcome to Kixik. The smartest hire you'll ever make."
                   delay={500}
