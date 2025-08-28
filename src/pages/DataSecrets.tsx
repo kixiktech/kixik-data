@@ -25,15 +25,23 @@ const MatrixBackground = () => {
     }
 
     const draw = () => {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.03)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = 'rgba(212, 175, 55, 0.1)'; // Gold with low opacity
       ctx.font = `${fontSize}px 'VT323', monospace`;
 
       for (let i = 0; i < drops.length; i++) {
         const text = characters[Math.floor(Math.random() * characters.length)];
-        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+        
+        // Create gradient effect - brighter at the head of the drop
+        const y = drops[i] * fontSize;
+        const gradient = ctx.createLinearGradient(0, y - fontSize * 3, 0, y + fontSize);
+        gradient.addColorStop(0, 'rgba(212, 175, 55, 0.1)');
+        gradient.addColorStop(0.5, 'rgba(212, 175, 55, 0.6)');
+        gradient.addColorStop(1, 'rgba(212, 175, 55, 0.9)');
+        
+        ctx.fillStyle = gradient;
+        ctx.fillText(text, i * fontSize, y);
 
         if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
           drops[i] = 0;
