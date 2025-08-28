@@ -36,9 +36,9 @@ const MatrixBackground = () => {
         // Create gradient effect - brighter at the head of the drop
         const y = drops[i] * fontSize;
         const gradient = ctx.createLinearGradient(0, y - fontSize * 3, 0, y + fontSize);
-        gradient.addColorStop(0, 'rgba(212, 175, 55, 0.1)');
-        gradient.addColorStop(0.5, 'rgba(212, 175, 55, 0.6)');
-        gradient.addColorStop(1, 'rgba(212, 175, 55, 0.9)');
+        gradient.addColorStop(0, 'rgba(212, 175, 55, 0.05)');
+        gradient.addColorStop(0.5, 'rgba(212, 175, 55, 0.4)');
+        gradient.addColorStop(1, 'rgba(212, 175, 55, 0.7)');
         
         ctx.fillStyle = gradient;
         ctx.fillText(text, i * fontSize, y);
@@ -108,12 +108,19 @@ const TypewriterText = ({ text, delay = 0, onComplete }: { text: string; delay?:
     }
   }, [displayText, text]);
 
-  const glitchChars = "!@#$%^&*()_+-={}[]|\\:;\"'<>,.?/~`";
+  const glitchChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   
   const glitchedText = isGlitching 
-    ? text.split('').map((char, index) => 
-        Math.random() > 0.8 ? glitchChars[Math.floor(Math.random() * glitchChars.length)] : char
-      ).join('')
+    ? text.split('').map((char) => {
+        if (Math.random() > 0.9) {
+          // Only replace with similar character types to maintain visual shape
+          if (char === ' ') return ' ';
+          if (/[A-Z]/.test(char)) return glitchChars[Math.floor(Math.random() * 26)];
+          if (/[0-9]/.test(char)) return glitchChars[26 + Math.floor(Math.random() * 10)];
+          return char;
+        }
+        return char;
+      }).join('')
     : displayText;
 
   return (
@@ -143,7 +150,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30"
+          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 bg-black"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Home
@@ -152,7 +159,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 w-10 h-10 p-0"
+          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 w-10 h-10 p-0 bg-black"
         >
           <X className="w-5 h-5" />
         </Button>
