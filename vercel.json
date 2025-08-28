@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/data-secrets", "destination": "/" },
+    { "source": "/data-secrets/", "destination": "/" }
+  ]
+}
