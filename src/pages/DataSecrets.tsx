@@ -180,7 +180,7 @@ const DataSecrets = () => {
               <p className="text-xl md:text-2xl font-terminal text-primary/80" style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5)' }}>
                 <TypewriterText 
                   text="Welcome to Kixik. The smartest hire you'll ever make."
-                  delay={500}
+                  delay={800}
                 />
               </p>
             </div>
