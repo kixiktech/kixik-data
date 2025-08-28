@@ -138,7 +138,14 @@ const DataSecrets = () => {
   const [showSubtext, setShowSubtext] = useState(false);
 
   const handleGoHome = () => {
-    navigate('/');
+    console.log('Navigating to home...');
+    try {
+      navigate('/', { replace: true });
+    } catch (error) {
+      console.error('Navigation error:', error);
+      // Fallback to window location
+      window.location.href = '/';
+    }
   };
 
   return (
