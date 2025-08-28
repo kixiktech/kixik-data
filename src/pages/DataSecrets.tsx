@@ -161,7 +161,7 @@ const DataSecrets = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 -mt-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h1 className="text-4xl md:text-6xl font-terminal text-primary leading-tight">
+          <h1 className="text-4xl md:text-6xl font-terminal text-primary leading-tight" style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6)' }}>
             <TypewriterText 
               text="Your Data Holds Secrets. We Unlock Them. Giving You the Power of a Fortune 500 Data Team Without Paying for One."
               onComplete={() => setShowSubtext(true)}
@@ -170,7 +170,7 @@ const DataSecrets = () => {
           
           {showSubtext && (
             <div className="animate-fade-in">
-              <p className="text-xl md:text-2xl font-terminal text-primary/80">
+              <p className="text-xl md:text-2xl font-terminal text-primary/80" style={{ textShadow: '2px 2px 6px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5)' }}>
                 <TypewriterText 
                   text="Welcome to Kixik. The smartest hire you'll ever make."
                   delay={500}
