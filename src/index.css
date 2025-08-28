@@ -60,6 +60,16 @@
     text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
   }
   
+  /* Gold glow hover utility using design tokens */
+  .hover-gold-glow {
+    @apply transition-all duration-300;
+  }
+  .hover-gold-glow:hover {
+    box-shadow: 0 0 24px hsl(var(--primary) / 0.55), 0 0 40px hsl(var(--primary) / 0.35);
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+  
   .gold-button {
     @apply bg-gold text-black font-bold py-4 px-8 rounded 
            hover:bg-gold-light transition-colors duration-300

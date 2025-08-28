@@ -79,23 +79,25 @@ const TypewriterText = ({ text, delay = 0, onComplete }: { text: string; delay?:
   const [isGlitching, setIsGlitching] = useState(false);
 
   useEffect(() => {
+    let typeInterval: number | undefined;
     const timer = setTimeout(() => {
       let i = 0;
-      const typeInterval = setInterval(() => {
+      typeInterval = window.setInterval(() => {
         if (i < text.length) {
           setDisplayText(text.slice(0, i + 1));
           i++;
         } else {
-          clearInterval(typeInterval);
+          if (typeInterval) clearInterval(typeInterval);
           onComplete?.();
         }
       }, 50);
-
-      return () => clearInterval(typeInterval);
     }, delay);
 
-    return () => clearTimeout(timer);
-  }, [text, delay, onComplete]);
+    return () => {
+      if (typeInterval) clearInterval(typeInterval);
+      clearTimeout(timer);
+    };
+  }, [text, delay]);
 
   useEffect(() => {
     if (displayText === text) {
@@ -157,7 +159,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-black hover:bg-primary border border-primary/30 bg-black hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-300"
+          className="text-primary bg-black border border-primary/30 hover:bg-primary hover:text-primary-foreground hover-gold-glow"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Home
@@ -166,7 +168,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-black hover:bg-primary border border-primary/30 w-10 h-10 p-0 bg-black hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-300"
+          className="text-primary bg-black border border-primary/30 w-10 h-10 p-0 hover-gold-glow"
         >
           <X className="w-5 h-5" />
         </Button>
