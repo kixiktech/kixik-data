@@ -10,12 +10,14 @@ interface CalButtonProps extends ButtonProps {
 }
 
 const CalButton = ({ className, children, size = "default", ...props }: CalButtonProps) => {
+  const handleClick = () => {
+    window.open("https://kixikonboarding.fillout.com/t/aky41kbvN1us", "_blank");
+  };
+
   return (
     <button
-      className={cn("gold-button", className)}
-      data-cal-link="kyle-nix-kixiktechnologies/discovery-call"
-      data-cal-namespace="discovery-call"
-      data-cal-config='{"layout":"month_view","theme":"dark"}'
+      className={cn("gold-button cursor-pointer", className)}
+      onClick={handleClick}
       {...props}
     >
       {children}

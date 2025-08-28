@@ -12,7 +12,7 @@ const ApplicationForm = () => {
   });
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Application received. Our team will review your submission.");
+    window.open("https://kixikonboarding.fillout.com/t/aky41kbvN1us", "_blank");
   };
   const handleChange = (field: string, value: string) => {
     setFormState(prev => ({
