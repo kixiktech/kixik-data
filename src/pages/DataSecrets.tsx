@@ -157,7 +157,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 bg-black"
+          className="text-primary hover:text-black hover:bg-primary border border-primary/30 bg-black hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-300"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Home
@@ -166,7 +166,7 @@ const DataSecrets = () => {
         <Button
           variant="ghost"
           onClick={handleGoHome}
-          className="text-primary hover:text-primary-foreground hover:bg-primary/20 border border-primary/30 w-10 h-10 p-0 bg-black"
+          className="text-primary hover:text-black hover:bg-primary border border-primary/30 w-10 h-10 p-0 bg-black hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-300"
         >
           <X className="w-5 h-5" />
         </Button>
