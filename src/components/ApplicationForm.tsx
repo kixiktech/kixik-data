@@ -40,9 +40,7 @@ const ApplicationForm = () => {
         </div>
 
         <div className="space-y-4">
-          <label className="block text-gold terminal-text">
-            Q3 – How soon are you looking to grow your client base?
-          </label>
+          <label className="block text-gold terminal-text">Q3 – How soon are you looking to grow your profit with superior intelligence? </label>
           <Select onValueChange={value => handleChange('timeframe', value)} value={formState.timeframe} required>
             <SelectTrigger className="bg-dark-200 border-gold/30 text-gold terminal-text">
               <SelectValue placeholder="Select timeframe" />
